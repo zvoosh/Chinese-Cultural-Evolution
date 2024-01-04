@@ -1,0 +1,555 @@
+@media only screen and (max-width: 767px) {
+    .titlePaint {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.5rem;
+        width: 100%;
+    }
+
+    .pageWrapper {
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 1rem;
+    }
+
+    .textwrapper {
+        margin-right: 1rem;
+        height: 100%;
+        margin-top: -7rem;
+    }
+
+    .textHelp {
+        margin-bottom: 5rem;
+    }
+
+    .mobileHelp {
+        overflow: auto;
+    }
+
+    .firstPicture {
+        background-image: url('../assets/WangWei.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+
+    .secondPicture {
+        background-image: url('../assets/xiao.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .thridPicture {
+        background-image: url('../assets/Xieyi.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .forthPicture {
+        background-image: url('../assets/FanKuan.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+
+    .fivePicture {
+        background-image: url('../assets/emperor.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sixPicture {
+        background-image: url('../assets/xuwei.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sevenPicture {
+        background-image: url('../assets/xu.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .pictureWrap {
+        width: 100%;
+        height: 75vh;
+        // background-color: red;
+    }
+
+    .pointer {
+        color: white;
+        border: 1px solid white;
+        height: 2.5vh;
+        width: 3vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 20%;
+        cursor: pointer;
+        justify-content: center;
+        user-select: none;
+        align-items: center;
+        transform: scale(1.8);
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .titlePaint {
+        font-weight: bold;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0.5rem;
+        width: 100%;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .pageWrapper {
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 1rem;
+    }
+
+    .textwrapper {
+        margin-right: 1rem;
+        height: 100%;
+        margin-top: -15rem;
+    }
+
+    .textHelp {
+        margin-bottom: 5rem;
+    }
+
+    .mobileHelp {
+        overflow: auto;
+    }
+
+    .firstPicture {
+        background-image: url('../assets/WangWei.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        margin-bottom: -5rem;
+        background-repeat: no-repeat;
+    }
+
+    .secondPicture {
+        background-image: url('../assets/xiao.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .thridPicture {
+        background-image: url('../assets/Xieyi.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .forthPicture {
+        background-image: url('../assets/FanKuan.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .fivePicture {
+        background-image: url('../assets/emperor.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sixPicture {
+        background-image: url('../assets/xuwei.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sevenPicture {
+        background-image: url('../assets/xu.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .pictureWrap {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .pointer {
+        color: white;
+        border: 1px solid white;
+        height: 2.5vh;
+        width: 3vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 20%;
+        cursor: pointer;
+        justify-content: center;
+        user-select: none;
+        align-items: center;
+        transform: scale(1.8);
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .titlePaint {
+        font-weight: bold;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0.5rem;
+        width: 100%;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .pageWrapper {
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 1rem;
+    }
+
+    .textwrapper {
+        margin-right: 1rem;
+        height: 100%;
+        margin-top: -5rem;
+    }
+
+    .textHelp {
+        margin-bottom: 5rem;
+    }
+
+    .mobileHelp {
+        overflow: auto;
+    }
+
+    .firstPicture {
+        background-image: url('../assets/WangWei.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        margin-bottom: 0rem;
+        background-repeat: no-repeat;
+    }
+
+    .secondPicture {
+        background-image: url('../assets/xiao.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .thridPicture {
+        background-image: url('../assets/Xieyi.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .forthPicture {
+        background-image: url('../assets/FanKuan.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .fivePicture {
+        background-image: url('../assets/emperor.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sixPicture {
+        background-image: url('../assets/xuwei.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sevenPicture {
+        background-image: url('../assets/xu.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .pictureWrap {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .pointer {
+        color: white;
+        border: 1px solid white;
+        height: 2.5vh;
+        width: 3vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 20%;
+        cursor: pointer;
+        justify-content: center;
+        user-select: none;
+        align-items: center;
+        transform: scale(1.8);
+    }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    .titlePaint {
+        font-weight: bold;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0.5rem;
+        width: 100%;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .firstPicture {
+        background-image: url('../assets/WangWei.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .secondPicture {
+        background-image: url('../assets/xiao.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .thridPicture {
+        background-image: url('../assets/Xieyi.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .forthPicture {
+        background-image: url('../assets/FanKuan.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 70%;
+        background-repeat: no-repeat;
+    }
+
+    .fivePicture {
+        background-image: url('../assets/emperor.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sixPicture {
+        background-image: url('../assets/xuwei.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sevenPicture {
+        background-image: url('../assets/xu.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .pictureWrap {
+        width: 50%;
+    }
+
+    .pointer {
+        color: white;
+        border: 1px solid white;
+        height: 2.5vh;
+        width: 3vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 20%;
+        cursor: pointer;
+        justify-content: center;
+        user-select: none;
+        align-items: center;
+        transform: scale(1.8);
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+
+    .pageWrapper {
+        color: white;
+        display: flex;
+        padding-top: 1rem;
+    }
+
+    .titlePaint {
+        font-weight: bold;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0.5rem;
+        width: 100%;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .firstPicture {
+        background-image: url('../assets/WangWei.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .secondPicture {
+        background-image: url('../assets/xiao.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .thridPicture {
+        background-image: url('../assets/Xieyi.jpg');
+        background-position: 50% 0%;
+        width: 100%;
+        height: 55%;
+        background-repeat: no-repeat;
+    }
+
+    .forthPicture {
+        background-image: url('../assets/FanKuan.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 70%;
+        background-repeat: no-repeat;
+    }
+
+    .fivePicture {
+        background-image: url('../assets/emperor.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sixPicture {
+        background-image: url('../assets/xuwei.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sevenPicture {
+        background-image: url('../assets/xu.jpg');
+        background-position: 50% 0%;
+        background-size: contain;
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .pictureWrap {
+        width: 50%;
+    }
+
+    .pointer {
+        color: white;
+        border: 1px solid white;
+        height: 2.5vh;
+        width: 3vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        border-radius: 20%;
+        cursor: pointer;
+        justify-content: center;
+        user-select: none;
+        align-items: center;
+        transform: scale(1.8);
+    }
+}
