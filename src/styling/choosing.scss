@@ -1,0 +1,424 @@
+.overflowX-hidden {
+    overflow-x: hidden;
+}
+
+.overflowY-hidden {
+    overflow-y: hidden;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .peopleChina {
+        background-image: url('../assets/people.jpg');
+        background-repeat: no-repeat;
+        background-size: 180% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .paintingsChina {
+        background-image: url('../assets/paintings.png');
+        background-repeat: no-repeat;
+        background-size: 300% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .folkloreChina {
+        background-image: url('../assets/folklorePeople.jpg');
+        background-repeat: no-repeat;
+        background-size: 180% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .potteryChina {
+        background-image: url('../assets/pottery.png');
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        background-position: 10% 5%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .myBtn {
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+    .title {
+        font-size: .6rem;
+        padding-top: .5rem;
+        letter-spacing: .11rem;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .cardFont {
+        font-size: .6rem;
+    }
+
+    .cistaVisina {
+        height: 40%;
+        transform: scale(.85);
+        margin-top: -3rem;
+        margin-bottom: 2rem;
+        // margin-top: 2rem;
+    }
+
+    .justMarginLeft {
+        margin-left: 1rem;
+    }
+
+    .hoverable {
+        width: 50%;
+    }
+
+    .hoverable:hover {
+        box-shadow: 0 0 15px black;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .peopleChina {
+        background-image: url('../assets/people.jpg');
+        background-repeat: no-repeat;
+        background-size: 140% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .paintingsChina {
+        background-image: url('../assets/paintings.png');
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .folkloreChina {
+        background-image: url('../assets/folklorePeople.jpg');
+        background-repeat: no-repeat;
+        background-size: 140% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .potteryChina {
+        background-image: url('../assets/pottery.png');
+        background-repeat: no-repeat;
+        background-size: 100% 80%;
+        background-position: 45% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+
+    .myBtn {
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        letter-spacing: .12rem;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .cistaVisina {
+        height: 50%;
+        transform: scale(.8);
+        margin-top: -3rem;
+    }
+
+    .cardFont {
+        font-size: 1.6rem;
+    }
+
+    .justMarginLeft {
+        margin-left: 4rem;
+    }
+
+    .hoverable {
+        width: 40%;
+    }
+
+    .hoverable:hover {
+        box-shadow: 0 0 15px black;
+    }
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .peopleChina {
+        background-image: url('../assets/people.jpg');
+        background-repeat: no-repeat;
+        background-size: 110% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .paintingsChina {
+        background-image: url('../assets/paintings.png');
+        background-repeat: no-repeat;
+        background-size: 95% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .folkloreChina {
+        background-image: url('../assets/folklorePeople.jpg');
+        background-repeat: no-repeat;
+        background-size: 110% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .potteryChina {
+        background-image: url('../assets/pottery.png');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: 45% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+
+    .myBtn {
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        letter-spacing: .12rem;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .cistaVisina {
+        height: 50%;
+        transform: scale(.8);
+        margin-top: -3rem;
+    }
+
+    .cardFont {
+        font-size: 1.6rem;
+    }
+
+    .justMarginLeft {
+        margin-left: 4rem;
+    }
+
+    .hoverable {
+        width: 40%;
+    }
+
+    .hoverable:hover {
+        box-shadow: 0 0 15px black;
+    }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    .peopleChina {
+        background-image: url('../assets/people.jpg');
+        background-repeat: no-repeat;
+        background-size: 110% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .paintingsChina {
+        background-image: url('../assets/paintings.png');
+        background-repeat: no-repeat;
+        background-size: 95% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .folkloreChina {
+        background-image: url('../assets/folklorePeople.jpg');
+        background-repeat: no-repeat;
+        background-size: 110% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .potteryChina {
+        background-image: url('../assets/pottery.png');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: 45% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .myBtn {
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        letter-spacing: .12rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .cistaVisina {
+        height: 50%;
+        transform: scale(.8);
+        margin-top: -3rem;
+    }
+
+    .cardFont {
+        font-size: 1.6rem;
+    }
+
+    .justMarginLeft {
+        margin-left: 4rem;
+    }
+
+    .hoverable {
+        width: 40%;
+    }
+
+    .hoverable:hover {
+        box-shadow: 0 0 15px black;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .peopleChina {
+        background-image: url('../assets/people.jpg');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .paintingsChina {
+        background-image: url('../assets/paintings.png');
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .folkloreChina {
+        background-image: url('../assets/folklorePeople.jpg');
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        background-position: 50% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .potteryChina {
+        background-image: url('../assets/pottery.png');
+        background-repeat: no-repeat;
+        background-size: 65% 80%;
+        background-position: 45% 20%;
+        color: white;
+        font-weight: bold;
+        letter-spacing: .3rem;
+        transition: box-shadow transform 0.3s ease-in-out;
+    }
+
+    .myBtn {
+        font-weight: normal;
+        letter-spacing: normal;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        letter-spacing: .12rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .cistaVisina {
+        height: 50%;
+        transform: scale(.8);
+        margin-top: -3rem;
+    }
+
+    .cardFont {
+        font-size: 1.6rem;
+    }
+
+    .justMarginLeft {
+        margin-left: 4rem;
+    }
+
+    .hoverable {
+        width: 40%;
+    }
+
+    .hoverable:hover {
+        box-shadow: 0 0 20px black;
+        transform: scale(1.03);
+    }
+}
