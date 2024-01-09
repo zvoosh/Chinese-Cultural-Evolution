@@ -5,6 +5,7 @@ import { ChoosingPage } from './components/ChoosingPage';
 import { PeoplePage } from './components/PeoplePage';
 import { Chooser } from './components/Chooser';
 import { PaintingPage } from './components/PaintingPage';
+import { FolklorePage } from './components/FolklorePage';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/first-page' element={<ChoosingPage />}>
             <Route path="people" element={<PeoplePage />} />
             <Route path="painting" element={<PaintingPage />} />
+            <Route path="folklore" element={<FolklorePage />} />
           </Route>
         </Routes>
       </div>

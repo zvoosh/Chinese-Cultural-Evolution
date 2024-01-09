@@ -51,39 +51,27 @@
     }
 
     .goLeftIcon {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
+        
+    width: fit-content;
+    height: fit-content;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
     }
 
     .goRightIcon {
-        margin-top: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
+        
+    width: fit-content;
+    height: fit-content;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
     }
 
     .text-below-headline {
@@ -1078,6 +1066,7 @@
         color: white;
         font-size: 1rem;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     .flip-card-inner {

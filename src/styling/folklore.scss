@@ -1,0 +1,461 @@
+@media only screen and (max-width: 767px) {
+
+    .folklorePageTitle{
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+        padding-top: 1rem;
+        font-weight: bold;
+        letter-spacing: .3rem;
+    }
+    
+    .overflowHelp{
+        overflow: auto;
+    }
+    
+    .mainPageText{
+        color: white;
+        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        letter-spacing: .11rem;
+        margin-top: 1rem;
+    }
+    .divWrap{
+        // background-color: blue;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .carouselWrapper{
+        width: 75%;
+        height: 80%;
+        padding: 2rem;
+        padding-bottom: 0rem;
+        border-radius: 2rem;
+    }
+    
+    .cardTitle{
+        text-align: center;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: bold;
+        // letter-spacing: .11rem;
+        padding: 1rem 0 1rem 0;
+    }
+    
+    .contentWrap{
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        
+    }
+
+    .borderWrap{
+        border-radius: 2rem;
+        padding: 2rem;
+        width: 90%;
+        height: 70%;
+        overflow: auto;
+    }
+    .textWrap{
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    
+    .arrowdisplay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+    .arrowStyle{
+        width: fit-content;
+        height: fit-content;
+        padding: .6rem;
+        border-radius: .5rem;
+        border: 2px solid white;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+.folklorePageTitle{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+
+.overflowHelp{
+    overflow: auto;
+}
+
+.mainPageText{
+    color: white;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    letter-spacing: .11rem;
+    margin-top: 1rem;
+}
+.divWrap{
+    // background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselWrapper{
+    width: 75%;
+    height: 80%;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem;
+}
+
+.cardTitle{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .11rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.contentWrap{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    
+}
+
+.borderWrap{
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 90%;
+    height: 60%;
+    overflow: auto;
+}
+.textWrap{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.arrowdisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.arrowStyle{
+    width: fit-content;
+    height: fit-content;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .folklorePageTitle{
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+        padding-top: 1rem;
+        font-weight: bold;
+        letter-spacing: .3rem;
+    }
+    
+    .overflowHelp{
+        overflow: auto;
+    }
+    
+    .mainPageText{
+        color: white;
+        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        letter-spacing: .11rem;
+        margin-top: 1rem;
+    }
+    .divWrap{
+        // background-color: blue;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .carouselWrapper{
+        width: 75%;
+        height: 80%;
+        padding: 2rem;
+        padding-bottom: 0rem;
+        border-radius: 2rem;
+    }
+    
+    .cardTitle{
+        text-align: center;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: bold;
+        letter-spacing: .11rem;
+        padding: 2rem 0 2rem 0;
+    }
+    
+    .contentWrap{
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        
+    }
+    
+    .borderWrap{
+        border-radius: 2rem;
+        padding: 2rem;
+        width: 90%;
+        height: 70%;
+        overflow: auto;
+    }
+    .textWrap{
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    
+    .arrowdisplay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+    .arrowStyle{
+        width: fit-content;
+        height: fit-content;
+        padding: .6rem;
+        border-radius: .5rem;
+        border: 2px solid white;
+        color: white;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    
+.folklorePageTitle{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+
+.overflowHelp{
+    overflow: auto;
+}
+
+.mainPageText{
+    color: white;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    letter-spacing: .11rem;
+    margin-top: 1rem;
+}
+.divWrap{
+    // background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselWrapper{
+    width: 75%;
+    height: 80%;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem;
+}
+
+.cardTitle{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .11rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.contentWrap{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    
+}
+
+.borderWrap{
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 90%;
+    height: 70%;
+    overflow: auto;
+}
+.textWrap{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.arrowdisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.arrowStyle{
+    width: fit-content;
+    height: fit-content;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+}
+
+@media only screen and (min-width: 1441px) {
+.folklorePageTitle{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+
+.overflowHelp{
+    overflow: auto;
+}
+
+.mainPageText{
+    color: white;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    letter-spacing: .11rem;
+    margin-top: 1rem;
+}
+.divWrap{
+    // background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselWrapper{
+    width: 75%;
+    height: 80%;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem;
+}
+
+.cardTitle{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .11rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.contentWrap{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    
+}
+
+.borderWrap{
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 90%;
+    height: 70%;
+    overflow: auto;
+}
+.textWrap{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.arrowdisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.arrowStyle{
+    width: fit-content;
+    height: fit-content;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+}

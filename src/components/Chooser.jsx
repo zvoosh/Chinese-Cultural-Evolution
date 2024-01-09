@@ -36,7 +36,7 @@ const Chooser = ({ navFn }) => {
                             Folklore of China
                         </div>
                         <div className="w-100 folkloreChina flex justify-center align-center font-11 h-100 " onClick={() => {
-                            handleNavigation('/first-page/people')
+                            handleNavigation('/first-page/folklore')
                         }}>
                         </div>
                     </div>
