@@ -6,6 +6,7 @@ import { PeoplePage } from './components/PeoplePage';
 import { Chooser } from './components/Chooser';
 import { PaintingPage } from './components/PaintingPage';
 import { FolklorePage } from './components/FolklorePage';
+import { SculptingPage } from './components/SculptingPage';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="people" element={<PeoplePage />} />
             <Route path="painting" element={<PaintingPage />} />
             <Route path="folklore" element={<FolklorePage />} />
+            <Route path="sculptings" element={<SculptingPage />} />
           </Route>
         </Routes>
       </div>

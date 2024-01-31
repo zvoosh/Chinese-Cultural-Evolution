@@ -42,10 +42,10 @@ const Chooser = ({ navFn }) => {
                     </div>
                     <div className="hoverable  justMarginLeft  mr-05 p-1 bg-red">
                         <div className="white bold letter-spacing-03  text-center cardFont">
-                            Pottery of China
+                            Sculptings of China
                         </div>
                         <div className="w-100 potteryChina m-05 flex justify-center align-center font-11 h-100 " onClick={() => {
-                            handleNavigation('/first-page/people')
+                            handleNavigation('/first-page/sculptings')
                         }}>
                         </div>
                     </div>

@@ -26,7 +26,42 @@ const PeoplePage = () => {
 
 
     return (<>
-        <div className="w-100 h-100 bg-green overflow-Y">
+    
+        <div className="w-100 h-100 mb-2 bg-green overflow-Y">
+        {currentIndex != null && (
+                <div className="carouselContainer">
+                    <div className="cont">
+                        <div className="goLeftIcon" onClick={() => {
+                            setCurrentIndex((prev) => {
+                                if (prev === 0) {
+                                    return 0;
+                                }
+                                return --prev
+                            })
+                        }}>
+                            {"<"}
+                        </div>
+                        <div className="nestoo">
+                            <div className="text-below-headline">
+                                {titles[currentIndex]}
+                            </div>
+                            <div className="text-below-paragraph">
+                                {texts[currentIndex]}
+                            </div>
+                        </div>
+                        <div className="goRightIcon" onClick={() => {
+                            setCurrentIndex((prev) => {
+                                if (prev === titles.length - 1) {
+                                    return titles.length - 1;
+                                }
+                                return ++prev;
+                            })
+                        }}>
+                            {">"}
+                        </div>
+                    </div>
+                </div>
+            )}
             <div className="flexing-box">
                 <div className="flip-card">
                     <div className="flip-card-inner">
@@ -141,40 +176,7 @@ const PeoplePage = () => {
                     </div>
                 </div>
             </div>
-            {currentIndex != null && (
-                <div className="carouselContainer">
-                    <div className="cont">
-                        <div className="goLeftIcon" onClick={() => {
-                            setCurrentIndex((prev) => {
-                                if (prev === 0) {
-                                    return 0;
-                                }
-                                return --prev
-                            })
-                        }}>
-                            {"<"}
-                        </div>
-                        <div className="nestoo">
-                            <div className="text-below-headline">
-                                {titles[currentIndex]}
-                            </div>
-                            <div className="text-below-paragraph">
-                                {texts[currentIndex]}
-                            </div>
-                        </div>
-                        <div className="goRightIcon" onClick={() => {
-                            setCurrentIndex((prev) => {
-                                if (prev === titles.length - 1) {
-                                    return titles.length - 1;
-                                }
-                                return ++prev;
-                            })
-                        }}>
-                            {">"}
-                        </div>
-                    </div>
-                </div>
-            )}
+            
         </div >
 
     </>)
