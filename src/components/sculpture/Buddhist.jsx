@@ -24,8 +24,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Terracotta Army</p>
-                        <p className="paragraph-padding">Created during the Qin Dynasty (210–209 BCE), the Terracotta Army in Xi'an is a collection of thousands of life-sized clay soldiers, horses, and chariots buried with the first Emperor of China, Qin Shi Huang.</p>
+                        <p className="card-title">Avalokiteshvara at Emei Shan</p>
+                        <p className="paragraph-padding">The Emei Shan mountain in China is home to a notable sculpture of Avalokiteshvara, a Bodhisattva associated with compassion. The statue is part of the larger cultural and religious complex on Emei Shan.</p>
                     </div>
                 </div>
             </div>
@@ -36,8 +36,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Leshan Giant Buddha</p>
-                        <p className="paragraph-padding">Carved into a cliff face near Leshan in Sichuan province, this enormous stone statue depicts Maitreya and is the largest Buddha statue in the world, dating back to the Tang Dynasty (713–803).</p>
+                        <p className="card-title">The Jade Buddha for Universal Peace</p>
+                        <p className="paragraph-padding">While not ancient, the Jade Buddha for Universal Peace is a modern sculpture carved from a single giant jade boulder. It is often displayed on a world tour to promote peace and harmony.</p>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Longmen Grottoes</p>
-                        <p className="paragraph-padding">Located near Luoyang, the Longmen Grottoes house thousands of Buddhist sculptures and statues carved into limestone cliffs. These date back to the Tang Dynasty and are renowned for their detailed carvings.</p>
+                        <p className="card-title">The Bamiyan Buddhas</p>
+                        <p className="paragraph-padding">Carved into the cliffs of Bamiyan Valley in Afghanistan, the Bamiyan Buddhas were colossal statues of Buddha, known for their monumental size and unique artistic style. Unfortunately, these statues were destroyed by the Taliban in 2001.</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Mogao Caves (Dunhuang Caves)</p>
-                        <p className="paragraph-padding">These caves, located in Dunhuang along the ancient Silk Road, contain a vast collection of Buddhist sculptures and murals dating from the 4th to the 14th century.</p>
+                        <p className="card-title">Gandhara Buddha Statues</p>
+                        <p className="paragraph-padding">The Gandhara region, encompassing parts of modern-day Pakistan and Afghanistan, produced distinctive Buddha statues that combined Hellenistic and Indian artistic influences. These statues are now found in various museums around the world.</p>
                     </div>
                 </div>
             </div>
@@ -72,8 +72,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Bronze Sculptures of the Shang and Zhou Dynasties</p>
-                        <p className="paragraph-padding">Although the individual sculptors are often unknown, the bronze vessels and ritual objects from the Shang (1600–1046 BCE) and Zhou (1046–256 BCE) Dynasties are celebrated for their artistic and technical achievements.</p>
+                        <p className="card-title">Amitabha Buddha of Borobudur</p>
+                        <p className="paragraph-padding">Borobudur in Indonesia is home to an impressive stupa adorned with numerous Buddha statues. The central stupa features a large seated Buddha statue representing Amitabha Buddha, the Buddha of Infinite Light.</p>
                     </div>
                 </div>
             </div>
@@ -84,8 +84,8 @@ Buddhist sculptures were often housed in cave temples and grottoes, carved into 
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Yungang Grottoes</p>
-                        <p className="paragraph-padding"> Situated near Datong, the Yungang Grottoes feature over 51,000 Buddhist statues and carvings, predominantly from the Northern Wei Dynasty (386–534).</p>
+                        <p className="card-title">The Great Buddha of Kamakura (Daibutsu)</p>
+                        <p className="paragraph-padding"> Located in Kamakura, Japan, this monumental bronze statue of Amida Buddha dates back to the 13th century. It stands at over 13 meters (43 feet) tall and is a renowned symbol of Japanese Buddhist art.</p>
                     </div>
                 </div>
             </div>

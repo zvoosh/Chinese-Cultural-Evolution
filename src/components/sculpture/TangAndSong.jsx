@@ -15,8 +15,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Terracotta Army</p>
-                        <p className="paragraph-padding">Created during the Qin Dynasty (210–209 BCE), the Terracotta Army in Xi'an is a collection of thousands of life-sized clay soldiers, horses, and chariots buried with the first Emperor of China, Qin Shi Huang.</p>
+                        <p className="card-title"> Song Dynasty Wooden Guardian Figures</p>
+                        <p className="paragraph-padding">Wooden sculptures of guardian figures, such as heavenly kings and mythical creatures, continued to be crafted during the Song Dynasty. These small figures were commonly placed in temples for protective purposes.</p>
                     </div>
                 </div>
             </div>
@@ -27,8 +27,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Leshan Giant Buddha</p>
-                        <p className="paragraph-padding">Carved into a cliff face near Leshan in Sichuan province, this enormous stone statue depicts Maitreya and is the largest Buddha statue in the world, dating back to the Tang Dynasty (713–803).</p>
+                        <p className="card-title"> Song Dynasty Wooden Luohan Statuettes</p>
+                        <p className="paragraph-padding">Small wooden sculptures depicting Luohan, or Arhats, were created during the Song Dynasty. These statuettes showcased individualized and expressive features, capturing the diversity of personalities among enlightened beings.</p>
                     </div>
                 </div>
             </div>
@@ -39,8 +39,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Longmen Grottoes</p>
-                        <p className="paragraph-padding">Located near Luoyang, the Longmen Grottoes house thousands of tangsong sculptures and statues carved into limestone cliffs. These date back to the Tang Dynasty and are renowned for their detailed carvings.</p>
+                        <p className="card-title"> Tang Dynasty Wooden Tomb Figurines</p>
+                        <p className="paragraph-padding">Some tombs from the Tang Dynasty contained small wooden figurines representing attendants, servants, and animals. These figurines were placed in the tomb as part of burial customs.</p>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Mogao Caves (Dunhuang Caves)</p>
-                        <p className="paragraph-padding">These caves, located in Dunhuang along the ancient Silk Road, contain a vast collection of tangsong sculptures and murals dating from the 4th to the 14th century.</p>
+                        <p className="card-title"> Song Dynasty Wooden Scholarly Figurines</p>
+                        <p className="paragraph-padding">Wooden sculptures of scholars, officials, and literati were crafted during the Song Dynasty. These small figurines often portrayed individuals engaged in scholarly pursuits, reflecting the intellectual and artistic achievements of the period.</p>
                     </div>
                 </div>
             </div>
@@ -63,8 +63,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Bronze Sculptures of the Shang and Zhou Dynasties</p>
-                        <p className="paragraph-padding">Although the individual sculptors are often unknown, the bronze vessels and ritual objects from the Shang (1600–1046 BCE) and Zhou (1046–256 BCE) Dynasties are celebrated for their artistic and technical achievements.</p>
+                        <p className="card-title">Song Dynasty Wooden Daoist Statuettes</p>
+                        <p className="paragraph-padding">Wooden statuettes representing Daoist deities and immortals were crafted during the Song Dynasty. These small sculptures reflected the diverse religious landscape of the time.</p>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@ The Tang Dynasty was a time of cultural exchange along the Silk Road, where many
                         </div>
                     </div>
                     <div className="flip-card-back">
-                        <p className="card-title">Yungang Grottoes</p>
-                        <p className="paragraph-padding"> Situated near Datong, the Yungang Grottoes feature over 51,000 tangsong statues and carvings, predominantly from the Northern Wei Dynasty (386–534).</p>
+                        <p className="card-title"> Song Dynasty Wooden Bodhisattva Figurines</p>
+                        <p className="paragraph-padding"> Small wooden sculptures of Bodhisattvas from the Song Dynasty are known for their elegance and refined craftsmanship. These figurines often portrayed Bodhisattvas in graceful poses, emphasizing spiritual qualities.</p>
                     </div>
                 </div>
             </div>
