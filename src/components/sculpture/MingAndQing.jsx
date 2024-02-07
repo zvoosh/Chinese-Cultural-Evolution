@@ -1,7 +1,7 @@
 const MingAndQing = () => {
     
     return (<>
-        <div className="p-1 white letter-spacing-01">
+        <div className="p-1 white text-styling letter-spacing-01">
         The Ming Dynasty (1368–1644) and Qing Dynasty (1644–1912) in China saw the creation of amazing bronze sculptures that showed off art, culture, and technology at the time. These sculptures had different uses, like for religion, ceremonies, decoration, and the emperor.
         In Ming Dynasty tombs, they placed bronze objects, such as figurines, vessels, and representations of daily life, to accompany the deceased and make sure they had a good afterlife.
         In Qing Dynasty homes, people often had bronze decorative objects like mirrors, incense burners, and vessels. These items had detailed patterns, symbols for good luck, and sometimes had words written on them.

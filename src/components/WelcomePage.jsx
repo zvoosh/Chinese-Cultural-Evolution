@@ -17,9 +17,17 @@ const WelcomePage = () => {
     return (
         <>
             <div className="testingBG">
-                <div className="welcomingText">
-                    WELCOME TO A BRIEF VIRTUAL GUIDE AND GALLERY OF CHINESE CULTURE
+            <div className="w-100 bg-red p-1">
+                <div className="flex justify-center w-100" >
+                    <div className="title">
+                    {/* Virtual guide through the development of Chinese culture */}
+                     VIRTUAL GUIDE THROUGH THE DEVELOPMENT OF CHINESE CULTURE
+                    </div>
                 </div>
+            </div>
+                {/* <div className="welcomingText">
+                    WELCOME TO A BRIEF VIRTUAL GUIDE AND GALLERY OF CHINESE CULTURE
+                </div> */}
                 <div className={`welcomingToNext ${isClicked ? "clickedClicker" : ''}`} id="clicker" onClick={() => {
                     setIsClicked((prev) => !prev)
                 }}>

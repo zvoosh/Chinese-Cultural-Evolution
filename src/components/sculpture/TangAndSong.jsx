@@ -1,7 +1,7 @@
 const TangAndSong = () => {
     
     return (<>
-        <div className="p-1 white letter-spacing-01">
+        <div className="p-1 white text-styling letter-spacing-01">
         The Tang (618–907) and Song (960–1279) Dynasties were important times in China's history with big changes in art and culture. Sculptures made of wood and stone during these times showed the artistic achievements and lively culture.
 
 In the Tang Dynasty, wooden sculptures were famous for being very well-made and detailed. Artists were really good at carving, and they made detailed sculptures of tangsong deities, Bodhisattvas, and other religious figures. These wooden sculptures were often put in temples and palaces for both religious and decorative reasons. Buddhism had a big impact on Tang Dynasty art, and large wooden statues were made, like the ones found in caves at Dunhuang and the Mogao Grottoes.

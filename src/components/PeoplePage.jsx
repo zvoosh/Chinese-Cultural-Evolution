@@ -27,7 +27,7 @@ const PeoplePage = () => {
 
     return (<>
     
-        <div className="w-100 h-100 mb-2 bg-green overflow-Y">
+        <div className="w-100 h-100 bg-green overflow-Y">
         {currentIndex != null && (
                 <div className="carouselContainer">
                     <div className="cont">
@@ -62,14 +62,14 @@ const PeoplePage = () => {
                     </div>
                 </div>
             )}
-            <div className="flexing-box">
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <div className="front-page-image1" >
-                            </div>
+            <div className="people-flip-cards">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
+                                <div className="front-page-image1" >
+                                </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Western China</p>
                             <p className="paragraph-padding">This is a vast and diverse region, including provinces such as Sichuan, Yunnan, Tibet, and Xinjiang. It features high plateaus, mountains, and deserts.</p>
                             <p className="paragraph-padding pb-05">The represented image is featuring individuals originating from the Tibetan region.</p>
@@ -77,13 +77,13 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image2">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Eastern China</p>
                             <p className="paragraph-padding ">Bejing as represent of China is situated in this region.
                             </p>
@@ -92,13 +92,13 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image3">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Southern China</p>
                             <p className="paragraph-padding ">This region encompasses provinces like Guangdong, Guangxi, Hainan, and Hong Kong. </p>
                             <p className="paragraph-padding ">It is known for its subtropical climate and is a significant economic and trading hub</p>
@@ -107,13 +107,13 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image4">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Northern China</p>
                             <p className="paragraph-padding ">This region includes provinces like Shanxi, Shaanxi, Hebei, and Inner Mongolia. </p>
                             <p className="paragraph-padding pb-05">It is characterized by a more arid climate and is an important agricultural and historical area.</p>
@@ -121,13 +121,13 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image5">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Central China</p>
                             <p className="paragraph-padding ">This area includes provinces like Henan and Hubei.  </p>
                             <p className="paragraph-padding pb-05">It is a mix of agricultural and industrial zones, with cities like Wuhan being key economic centers.</p>
@@ -135,13 +135,13 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image6">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Northeast China</p>
                             <p className="paragraph-padding ">Also known as Dongbei, this region includes provinces such as Liaoning, Jilin, and Heilongjiang  </p>
                             <p className="paragraph-padding  pb-05">It is an important industrial area with a history of heavy manufacturing.  </p>
@@ -149,26 +149,26 @@ const PeoplePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image7">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Himalayas</p>
                             <p className="paragraph-padding pb-05">The Himalayan mountain range, which includes the world's highest peak, Mount Everest, extends into southwestern China along the border with Nepal. </p>
 
                         </div>
                     </div>
                 </div>
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
+                <div className="people-flip-card">
+                    <div className="people-flip-card-inner">
+                        <div className="people-flip-card-front">
                             <div className="front-page-image8">
                             </div>
                         </div>
-                        <div className="flip-card-back">
+                        <div className="people-flip-card-back">
                             <p className="card-title">Tian Shan Mountains</p>
                             <p className="paragraph-padding  pb-05">The Tian Shan, or "Heavenly Mountains," stretch across the border regions of northwest China, Kazakhstan, Kyrgyzstan, and Uzbekistan. In China, they are primarily located in Xinjiang. </p>
 

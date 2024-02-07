@@ -1,21 +1,8 @@
 const Buddhist = () => {
     return (<>
-        <div className="p-1 white letter-spacing-01">
-        Buddhist sculpture in China boasts a rich and diverse history, evolving over centuries and reflecting the profound impact of Buddhism on Chinese art.
+        <div className="p-1 white text-styling letter-spacing-01">
 
-The introduction and early development of Buddhism in China occurred as it was introduced from India via the Silk Road and Central Asia during the Han Dynasty.
-
-Early Buddhist sculptures in China were influenced by Indian Gandhara art, characterized by realistic depictions of the Buddha and a focus on narrative scenes.
-
-The evolution of styles began with the Northern and Southern Dynasties (420-589). This period witnessed the emergence of distinctive Northern and Southern styles. Northern sculptures tended to be more robust and heavily draped, while Southern sculptures were characterized by a more slender and elegant style.
-
-Other notable styles include the Tang Dynasty (618–907), considered a golden age for Buddhist sculpture. Tang artists incorporated a harmonious blend of Indian, Central Asian, and Chinese elements, resulting in more monumental and expressive sculptures that reflected a sense of spiritual grandeur. The Song Dynasty (960–1279) saw a refinement of Buddhist art, with sculptures characterized by a graceful and delicate aesthetic, often portraying serene and contemplative figures. Stone carving became a prominent medium during this period.
-
-Materials and techniques used encompass wood, stone, and bronze. Wooden sculptures were prevalent, especially in earlier periods, with skilled artisans carving intricate details to convey the spiritual qualities of the Buddha and other Buddhist deities. Stone carving became prominent, particularly during the Tang and Song Dynasties, with the Longmen Grottoes and Yungang Grottoes standing out as notable examples of extensive rock-cut Buddhist sculptures. Bronze sculptures were also created, showcasing the technical prowess of artisans and allowing for more detailed and refined features.
-
-Iconography and symbolism in Buddhist sculptures follow specific conventions. The depiction of Buddhas, Bodhisattvas, and other celestial beings is imbued with symbolic meaning, conveying aspects of compassion, wisdom, and enlightenment. Mudras and attributes, represented by hand gestures and objects held by the figures, carry symbolic significance in Buddhist iconography, representing various teachings and qualities associated with enlightened beings.
-
-Buddhist sculptures were often housed in cave temples and grottoes, carved into cliffs or rock formations. Sites like the Longmen Grottoes and Yungang Grottoes became important centers for Buddhist worship and pilgrimage.</div>
+        Buddhist sculpture in China boasts a rich and diverse history, evolving over centuries and reflecting the profound impact of Buddhism on Chinese art. The introduction and early development of Buddhism in China occurred as it was introduced from India via the Silk Road and Central Asia during the Han Dynasty. Early Buddhist sculptures in China were influenced by Indian Gandhara art, characterized by realistic depictions of the Buddha and a focus on narrative scenes. The evolution of styles began with the Northern and Southern Dynasties (420-589). This period witnessed the emergence of distinctive Northern and Southern styles. Materials and techniques used encompass wood, stone, and bronze. Iconography and symbolism in Buddhist sculptures follow specific conventions. The depiction of Buddhas, Bodhisattvas, and other celestial beings is imbued with symbolic meaning, conveying aspects of compassion, wisdom, and enlightenment. Mudras and attributes, represented by hand gestures and objects held by the figures, carry symbolic significance in Buddhist iconography, representing various teachings and qualities associated with enlightened beings. Buddhist sculptures were often housed in cave temples and grottoes, carved into cliffs or rock formations. </div>
         <div className="flexing-box">
         <div className="flip-card-ancient">
                 <div className="flip-card-inner">

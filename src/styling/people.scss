@@ -3,225 +3,27 @@
 }
 
 @media only screen and (max-width: 767px) and (max-height: 767px) {
-    .flexing-box {
+    
+    .people-flip-cards {
         display: flex;
         width: 100%;
-        min-height: 300%;
+        height: 200%;
         justify-content: space-evenly;
+        flex-direction: row;
         flex-wrap: wrap;
-        margin-bottom: 5rem;
-        padding-bottom: 5rem;
+        margin-bottom: 15rem;
+        padding-bottom: 15rem;
     }
 
-    .flip-card {
-        width: 80%;
-        height: 10%;
-        margin: .5rem;
+    .people-flip-card {
+        width: 70%;
+        height: 20%;
+        margin: 1rem;
         perspective: 1000px;
     }
 
     .card-title {
-        font-size: 1.2rem;
-        padding-top: .1rem;
-        padding-bottom: .5rem;
-    }
-
-    .paragraph-padding {
-        padding-left: .2rem;
-        padding-right: .2rem
-    }
-
-    .carouselContainer {
-        width: 100%;
-        margin-top: 2rem;
-        display: block;
-        height: auto;
-    }
-
-    .nestoo {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cont {
-        width: 100%;
-        padding-bottom: 3rem;
-        display: flex;
-    }
-
-    .goLeftIcon {
-        
-    width: fit-content;
-    height: fit-content;
-    padding: .6rem;
-    border-radius: .5rem;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3rem;
-    }
-
-    .goRightIcon {
-        
-    width: fit-content;
-    height: fit-content;
-    padding: .6rem;
-    border-radius: .5rem;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3rem;
-    }
-
-    .text-below-headline {
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-top: 1rem;
-        height: 10%;
-        width: 100%;
-        color: white;
-        text-align: center;
-    }
-
-    .text-below-paragraph {
-        text-align: center;
-        padding-left: 2rem;
-        width: 100%;
-        height: 90%;
-        padding-right: 2rem;
-        color: white;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-        background-color: #bbb;
-        color: black;
-    }
-
-    .front-page-image1 {
-        background-image: url('../assets/tibetian.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image2 {
-        background-image: url('../assets/bejing.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .front-page-image3 {
-        background-image: url('../assets/hongkong.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image4 {
-        background-image: url('../assets/wall.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image5 {
-        background-image: url('../assets/wuhan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image6 {
-        background-image: url('../assets/northeast.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image7 {
-        background-image: url('../assets/himalaj.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image8 {
-        background-image: url('../assets/tishuan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .flip-card-back {
-        background-color: #ff9b54;
-        color: white;
-        transform: rotateY(180deg);
-        font-size: 1rem !important;
-        letter-spacing: .004rem;
-        line-height: 1.2;
-    }
-}
-
-@media only screen and (max-width: 767px) and (min-height: 768px) {
-    .flexing-box {
-        display: flex;
-        width: 100%;
-        min-height: 300%;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-bottom: 5rem;
-        padding-bottom: 5rem;
-    }
-
-    .flip-card {
-        width: 90%;
-        height: 10%;
-        margin: .5rem;
-        perspective: 1000px;
-    }
-
-    .card-title {
-        font-size: 2rem;
+        font-size: 1rem;
         padding-top: .1rem;
         padding-bottom: .5rem;
     }
@@ -294,7 +96,450 @@
 
     .text-below-headline {
         font-weight: bold;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .text-below-paragraph {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: white;
+        font-size: .9rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .people-flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .people-flip-card:hover .people-flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .people-flip-card-front,
+    .people-flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .people-flip-card-front {
+        background-color:#3c6e71;
+        color: black;
+    }
+
+    .front-page-image1 {
+        background-image: url('../assets/tibetian.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image2 {
+        background-image: url('../assets/bejing.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .front-page-image3 {
+        background-image: url('../assets/hongkong.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image4 {
+        background-image: url('../assets/wall.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image5 {
+        background-image: url('../assets/wuhan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image6 {
+        background-image: url('../assets/northeast.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image7 {
+        background-image: url('../assets/himalaj.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image8 {
+        background-image: url('../assets/tishuan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .people-flip-card-back {
+        background-color: #ff9b54;
+        color: white;
+        transform: rotateY(180deg);
+        font-size: .8rem !important;
+        letter-spacing: .004rem;
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-height: 768px) {
+    
+    .people-flip-cards {
+        display: flex;
+        width: 100%;
+        height: 200%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15rem;
+        padding-bottom: 15rem;
+    }
+
+    .people-flip-card {
+        width: 70%;
+        height: 20%;
+        margin: 1rem;
+        perspective: 1000px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        padding-top: .1rem;
+        padding-bottom: .5rem;
+    }
+
+    .paragraph-padding {
+        padding-left: .2rem;
+        padding-right: .2rem
+    }
+
+
+    .carouselContainer {
+        width: 100%;
+        margin-top: 2rem;
+        display: block;
+        height: auto;
+    }
+
+    .nestoo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont {
+        width: 100%;
+        padding-bottom: 3rem;
+        display: flex;
+    }
+
+    .goLeftIcon {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .goRightIcon {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+
+    .text-below-headline {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .text-below-paragraph {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: white;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .people-flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .people-flip-card:hover .people-flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .people-flip-card-front,
+    .people-flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .people-flip-card-front {
+        background-color:#3c6e71;
+        color: black;
+    }
+
+    .front-page-image1 {
+        background-image: url('../assets/tibetian.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image2 {
+        background-image: url('../assets/bejing.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .front-page-image3 {
+        background-image: url('../assets/hongkong.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image4 {
+        background-image: url('../assets/wall.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image5 {
+        background-image: url('../assets/wuhan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image6 {
+        background-image: url('../assets/northeast.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image7 {
+        background-image: url('../assets/himalaj.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image8 {
+        background-image: url('../assets/tishuan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .people-flip-card-back {
+        background-color: #ff9b54;
+        color: white;
+        transform: rotateY(180deg);
+        font-size: 1rem !important;
+        letter-spacing: .004rem;
+        line-height: 1.2;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .people-flip-cards {
+        display: flex;
+        width: 100%;
+        height: 200%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15rem;
+        padding-bottom: 15rem;
+    }
+
+    .people-flip-card {
+        width: 70%;
+        height: 20%;
+        margin: 1rem;
+        perspective: 1000px;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+        padding-top: .1rem;
+        padding-bottom: .5rem;
+    }
+
+    .paragraph-padding {
+        padding-left: .2rem;
+        padding-right: .2rem
+    }
+
+
+    .carouselContainer {
+        width: 100%;
+        margin-top: 2rem;
+        display: block;
+        height: auto;
+    }
+
+    .nestoo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont {
+        width: 100%;
+        padding-bottom: 3rem;
+        display: flex;
+    }
+
+    .goLeftIcon {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .goRightIcon {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+
+    .text-below-headline {
+        font-weight: bold;
+        font-size: 1.5rem;
         margin-top: 1rem;
         color: white;
         text-align: center;
@@ -310,22 +555,22 @@
         margin-bottom: 5rem;
     }
 
-    .flip-card-inner {
+    .people-flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .flip-card:hover .flip-card-inner {
+    .people-flip-card:hover .people-flip-card-inner {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front,
-    .flip-card-back {
+    .people-flip-card-front,
+    .people-flip-card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -333,15 +578,16 @@
         backface-visibility: hidden;
     }
 
-    .flip-card-front {
-        background-color: #bbb;
+    .people-flip-card-front {
+        background-color:#3c6e71;
         color: black;
     }
 
     .front-page-image1 {
         background-image: url('../assets/tibetian.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -349,7 +595,8 @@
     .front-page-image2 {
         background-image: url('../assets/bejing.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -358,7 +605,8 @@
     .front-page-image3 {
         background-image: url('../assets/hongkong.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -366,7 +614,8 @@
     .front-page-image4 {
         background-image: url('../assets/wall.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -374,7 +623,8 @@
     .front-page-image5 {
         background-image: url('../assets/wuhan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -382,7 +632,8 @@
     .front-page-image6 {
         background-image: url('../assets/northeast.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -390,7 +641,8 @@
     .front-page-image7 {
         background-image: url('../assets/himalaj.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -398,248 +650,35 @@
     .front-page-image8 {
         background-image: url('../assets/tishuan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
 
-    .flip-card-back {
+    .people-flip-card-back {
         background-color: #ff9b54;
         color: white;
         transform: rotateY(180deg);
-        font-size: 1.2rem !important;
+        font-size: 1.4rem !important;
         letter-spacing: .004rem;
         line-height: 1.2;
     }
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .flexing-box {
+@media only screen and (min-width: 1024px) and (min-height: 1024px) {
+    .people-flip-cards {
         display: flex;
         width: 100%;
-        height: auto;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-bottom: 5rem;
-        padding-bottom: 5rem;
-        align-items: flex-start;
-    }
-
-    .flip-card {
-        width: 45%;
-        height: 25%;
-        margin: .5rem;
-        perspective: 1000px;
-    }
-
-    .card-title {
-        font-size: 1.4rem;
-        padding-top: .1rem;
-        padding-bottom: .5rem;
-    }
-
-    .paragraph-padding {
-        padding-left: .2rem;
-        padding-right: .2rem
-    }
-
-
-    .carouselContainer {
-        width: 100%;
-        margin-top: 2rem;
-        display: block;
-        height: auto;
-    }
-
-    .nestoo {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cont {
-        width: 100%;
-        padding-bottom: 3rem;
-        display: flex;
-    }
-
-    .goLeftIcon {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
-    }
-
-    .goRightIcon {
-        margin-top: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
-    }
-
-
-
-    .text-below-headline {
-        font-weight: bold;
-        font-size: 1.4rem;
-        margin-top: 1rem;
-        color: white;
-        text-align: center;
-    }
-
-    .text-below-paragraph {
-        text-align: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        color: white;
-        font-size: 1.3rem;
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-        background-color: #bbb;
-        color: black;
-        height: 100%;
-    }
-
-    .front-page-image1 {
-        background-image: url('../assets/tibetian.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image2 {
-        background-image: url('../assets/bejing.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .front-page-image3 {
-        background-image: url('../assets/hongkong.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image4 {
-        background-image: url('../assets/wall.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image5 {
-        background-image: url('../assets/wuhan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image6 {
-        background-image: url('../assets/northeast.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image7 {
-        background-image: url('../assets/himalaj.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image8 {
-        background-image: url('../assets/tishuan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .flip-card-back {
-        background-color: #ff9b54;
-        color: white;
-        transform: rotateY(180deg);
-        font-size: 1rem !important;
-        letter-spacing: .004rem;
-        line-height: 1.2;
-    }
-}
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 1024px) {
-    .flexing-box {
-        display: flex;
-        width: 100%;
-        min-height: 300%;
+        height: 400%;
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin-bottom: 5rem;
         padding-bottom: 5rem;
     }
 
-    .flip-card {
+    .people-flip-card {
         width: 70%;
         height: 10%;
         margin: .5rem;
@@ -720,7 +759,7 @@
 
     .text-below-headline {
         font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin-top: 1rem;
         color: white;
         text-align: center;
@@ -731,27 +770,27 @@
         padding-left: 1rem;
         padding-right: 1rem;
         color: white;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
         margin-bottom: 5rem;
     }
 
-    .flip-card-inner {
+    .people-flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .flip-card:hover .flip-card-inner {
+    .people-flip-card:hover .people-flip-card-inner {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front,
-    .flip-card-back {
+    .people-flip-card-front,
+    .people-flip-card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -759,15 +798,16 @@
         backface-visibility: hidden;
     }
 
-    .flip-card-front {
-        background-color: #bbb;
+    .people-flip-card-front {
+        background-color:#3c6e71;
         color: black;
     }
 
     .front-page-image1 {
         background-image: url('../assets/tibetian.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -775,7 +815,8 @@
     .front-page-image2 {
         background-image: url('../assets/bejing.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -784,7 +825,8 @@
     .front-page-image3 {
         background-image: url('../assets/hongkong.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -792,7 +834,8 @@
     .front-page-image4 {
         background-image: url('../assets/wall.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -800,7 +843,8 @@
     .front-page-image5 {
         background-image: url('../assets/wuhan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -808,7 +852,8 @@
     .front-page-image6 {
         background-image: url('../assets/northeast.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -816,7 +861,8 @@
     .front-page-image7 {
         background-image: url('../assets/himalaj.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -824,12 +870,13 @@
     .front-page-image8 {
         background-image: url('../assets/tishuan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
 
-    .flip-card-back {
+    .people-flip-card-back {
         background-color: #ff9b54;
         color: white;
         transform: rotateY(180deg);
@@ -840,227 +887,12 @@
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) and (max-height: 767px){
+@media only screen and (min-width: 1024px)  and (max-height: 767px){
     
-    .flexing-box {
+    .people-flip-cards {
         display: flex;
         width: 100%;
-        height: auto;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-bottom: 5rem;
-        padding-bottom: 5rem;
-    }
-
-    .flip-card {
-        width: 40%;
-        height: 40%;
-        padding-bottom: 5rem;
-        margin: .5rem;
-        perspective: 1000px;
-    }
-
-    .card-title {
-        font-size: 1.4rem;
-        padding-top: .1rem;
-        padding-bottom: .5rem;
-    }
-
-    .paragraph-padding {
-        padding-left: .2rem;
-        padding-right: .2rem
-    }
-
-
-    .carouselContainer {
-        width: 100%;
-        margin-top: 2rem;
-        display: block;
-        height: auto;
-    }
-
-    .nestoo {
-        width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cont {
-        width: 100%;
-        padding-bottom: 3rem;
-        display: flex;
-    }
-
-    .goLeftIcon {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
-    }
-
-    .goRightIcon {
-        margin-top: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        border: 1px solid white;
-        color: white;
-        width: 3vh;
-        text-align: center;
-        border-radius: 20%;
-        height: 3vh;
-        transform: scale(1.5);
-        cursor: pointer;
-        user-select: none;
-    }
-
-
-
-    .text-below-headline {
-        font-weight: bold;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        color: white;
-        text-align: center;
-    }
-
-    .text-below-paragraph {
-        text-align: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        color: white;
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-
-    .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-        background-color: #bbb;
-        color: black;
-    }
-
-    .front-page-image1 {
-        background-image: url('../assets/tibetian.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image2 {
-        background-image: url('../assets/bejing.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .front-page-image3 {
-        background-image: url('../assets/hongkong.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image4 {
-        background-image: url('../assets/wall.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image5 {
-        background-image: url('../assets/wuhan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image6 {
-        background-image: url('../assets/northeast.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image7 {
-        background-image: url('../assets/himalaj.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .front-page-image8 {
-        background-image: url('../assets/tishuan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-    }
-
-    .flip-card-back {
-        background-color: #ff9b54;
-        color: white;
-        transform: rotateY(180deg);
-        font-size: 1.3rem !important;
-        letter-spacing: .004rem;
-        line-height: 1.2;
-    }
-}
-
-
-
-@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 1024px){
-    
-    .flexing-box {
-        display: flex;
-        width: 100%;
-        min-height: 500%;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1068,7 +900,7 @@
         padding-bottom: 5rem;
     }
 
-    .flip-card {
+    .people-flip-card {
         width: 70%;
         height: 10%;
         margin: .5rem;
@@ -1165,22 +997,22 @@
         margin-bottom: 5rem;
     }
 
-    .flip-card-inner {
+    .people-flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .flip-card:hover .flip-card-inner {
+    .people-flip-card:hover .people-flip-card-inner {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front,
-    .flip-card-back {
+    .people-flip-card-front,
+    .people-flip-card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1188,15 +1020,16 @@
         backface-visibility: hidden;
     }
 
-    .flip-card-front {
-        background-color: #bbb;
+    .people-flip-card-front {
+        background-color:#3c6e71;
         color: black;
     }
 
     .front-page-image1 {
         background-image: url('../assets/tibetian.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1204,7 +1037,8 @@
     .front-page-image2 {
         background-image: url('../assets/bejing.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1213,7 +1047,8 @@
     .front-page-image3 {
         background-image: url('../assets/hongkong.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1221,7 +1056,8 @@
     .front-page-image4 {
         background-image: url('../assets/wall.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1229,7 +1065,8 @@
     .front-page-image5 {
         background-image: url('../assets/wuhan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1237,7 +1074,8 @@
     .front-page-image6 {
         background-image: url('../assets/northeast.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1245,7 +1083,8 @@
     .front-page-image7 {
         background-image: url('../assets/himalaj.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1253,12 +1092,236 @@
     .front-page-image8 {
         background-image: url('../assets/tishuan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
 
-    .flip-card-back {
+    .people-flip-card-back {
+        background-color: #ff9b54;
+        color: white;
+        transform: rotateY(180deg);
+        font-size: 1.8rem !important;
+        letter-spacing: .004rem;
+        line-height: 1.2;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) and (max-height: 1024px){
+    
+    .people-flip-cards {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .people-flip-card {
+        width: 70%;
+        height: 10%;
+        margin: .5rem;
+        perspective: 1000px;
+    }
+
+    .card-title {
+        font-size: 25rem;
+        padding-top: .1rem;
+        padding-bottom: .5rem;
+    }
+
+    .paragraph-padding {
+        padding-left: .2rem;
+        padding-right: .2rem
+    }
+
+
+    .carouselContainer {
+        width: 100%;
+        margin-top: 2rem;
+        display: block;
+        height: auto;
+    }
+
+    .nestoo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont {
+        width: 100%;
+        padding-bottom: 3rem;
+        display: flex;
+    }
+
+    .goLeftIcon {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .goRightIcon {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+
+    .text-below-headline {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .text-below-paragraph {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: white;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .people-flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .people-flip-card:hover .people-flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .people-flip-card-front,
+    .people-flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .people-flip-card-front {
+        background-color:#3c6e71;
+        color: black;
+    }
+
+    .front-page-image1 {
+        background-image: url('../assets/tibetian.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image2 {
+        background-image: url('../assets/bejing.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .front-page-image3 {
+        background-image: url('../assets/hongkong.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image4 {
+        background-image: url('../assets/wall.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image5 {
+        background-image: url('../assets/wuhan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image6 {
+        background-image: url('../assets/northeast.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image7 {
+        background-image: url('../assets/himalaj.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .front-page-image8 {
+        background-image: url('../assets/tishuan.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .people-flip-card-back {
         background-color: #ff9b54;
         color: white;
         transform: rotateY(180deg);
@@ -1271,10 +1334,10 @@
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
     
-    .flexing-box {
+    .people-flip-cards {
         display: flex;
         width: 100%;
-        min-height: 550%;
+        min-height: 500%;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1282,8 +1345,8 @@
         padding-bottom: 15rem;
     }
 
-    .flip-card {
-        width: 70%;
+    .people-flip-card {
+        width: 60%;
         height: 10%;
         margin: 1rem;
         perspective: 1000px;
@@ -1379,22 +1442,22 @@
         margin-bottom: 5rem;
     }
 
-    .flip-card-inner {
+    .people-flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .flip-card:hover .flip-card-inner {
+    .people-flip-card:hover .people-flip-card-inner {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front,
-    .flip-card-back {
+    .people-flip-card-front,
+    .people-flip-card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1402,15 +1465,16 @@
         backface-visibility: hidden;
     }
 
-    .flip-card-front {
-        background-color: #bbb;
+    .people-flip-card-front {
+        background-color:#3c6e71;
         color: black;
     }
 
     .front-page-image1 {
         background-image: url('../assets/tibetian.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1418,7 +1482,8 @@
     .front-page-image2 {
         background-image: url('../assets/bejing.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1427,7 +1492,8 @@
     .front-page-image3 {
         background-image: url('../assets/hongkong.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1435,7 +1501,8 @@
     .front-page-image4 {
         background-image: url('../assets/wall.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1443,7 +1510,8 @@
     .front-page-image5 {
         background-image: url('../assets/wuhan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1451,7 +1519,8 @@
     .front-page-image6 {
         background-image: url('../assets/northeast.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1459,7 +1528,8 @@
     .front-page-image7 {
         background-image: url('../assets/himalaj.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1467,12 +1537,13 @@
     .front-page-image8 {
         background-image: url('../assets/tishuan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
 
-    .flip-card-back {
+    .people-flip-card-back {
         background-color: #ff9b54;
         color: white;
         transform: rotateY(180deg);
@@ -1484,85 +1555,38 @@
 
 
 @media only screen and (min-width: 1441px) {
-    .flexing-box {
+    
+    .people-flip-cards {
         display: flex;
         width: 100%;
-        height: auto;
-        justify-content: center;
+        height: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
     }
 
-    .flip-card {
-        width: 30%;
-        height: 40%;
-        padding-bottom: 5rem;
-        margin: .5rem;
+    .people-flip-card {
+        width: 20%;
+        height: 30%;
+        margin: 1rem;
         perspective: 1000px;
-        transform: scale(.9);
     }
 
     .card-title {
-        font-size: 1.2rem;
-        padding-bottom: 1rem;
+        font-size: 1.1rem;
+        padding-top: .1rem;
+        padding-bottom: .5rem;
     }
-
-    // w-100 pb-2 bg-green mt-2 mb-2 flex justify-center flex-col align-center h-40
 
     .paragraph-padding {
-        padding-left: 1rem;
-        padding-right: 1rem
+        padding-left: .2rem;
+        padding-right: .2rem
     }
-
-
-
-    // .carouselContainer {
-    //     width: 100%;
-    //     padding-bottom: 2rem;
-    //     margin-top: 2rem;
-    //     margin-bottom: 2rem;
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     height: 40%;
-    // }
-
-    // .goLeftIcon {
-    //     position: relative;
-    //     top: 50%;
-    //     left: -7%;
-    //     font-weight: bold;
-    //     border: 1px solid white;
-    //     color: white;
-    //     width: 3vh;
-    //     text-align: center;
-    //     border-radius: 20%;
-    //     height: 3vh;
-    //     transform: scale(1.5);
-    //     cursor: pointer;
-    //     user-select: none;
-    // }
-
-    // .goRightIcon {
-    //     position: relative;
-    //     bottom: 40%;
-    //     left: 105%;
-    //     font-weight: bold;
-    //     border: 1px solid white;
-    //     color: white;
-    //     width: 3vh;
-    //     text-align: center;
-    //     border-radius: 20%;
-    //     height: 3vh;
-    //     transform: scale(1.5);
-    //     cursor: pointer;
-    //     user-select: none;
-    // }
 
 
     .carouselContainer {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 2rem;
         display: block;
         height: auto;
     }
@@ -1583,8 +1607,8 @@
     }
 
     .goLeftIcon {
-        margin-top: 2rem;
-        margin-left: 10rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
         font-weight: bold;
         border: 1px solid white;
         color: white;
@@ -1601,8 +1625,8 @@
     }
 
     .goRightIcon {
-        margin-top: 2rem;
-        margin-right: 10rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1619,6 +1643,7 @@
     }
 
 
+
     .text-below-headline {
         font-weight: bold;
         font-size: 1.2rem;
@@ -1629,30 +1654,30 @@
 
     .text-below-paragraph {
         text-align: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         color: white;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
     }
 
-    .flip-card-inner {
+    .people-flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .flip-card:hover .flip-card-inner {
+    .people-flip-card:hover .people-flip-card-inner {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front,
-    .flip-card-back {
+    .people-flip-card-front,
+    .people-flip-card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1660,15 +1685,16 @@
         backface-visibility: hidden;
     }
 
-    .flip-card-front {
-        background-color: #bbb;
+    .people-flip-card-front {
+        background-color:#3c6e71;
         color: black;
     }
 
     .front-page-image1 {
         background-image: url('../assets/tibetian.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1676,7 +1702,8 @@
     .front-page-image2 {
         background-image: url('../assets/bejing.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1685,7 +1712,8 @@
     .front-page-image3 {
         background-image: url('../assets/hongkong.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1693,7 +1721,8 @@
     .front-page-image4 {
         background-image: url('../assets/wall.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1701,7 +1730,8 @@
     .front-page-image5 {
         background-image: url('../assets/wuhan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1709,7 +1739,8 @@
     .front-page-image6 {
         background-image: url('../assets/northeast.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1717,7 +1748,8 @@
     .front-page-image7 {
         background-image: url('../assets/himalaj.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
@@ -1725,15 +1757,18 @@
     .front-page-image8 {
         background-image: url('../assets/tishuan.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 100%;
     }
 
-    .flip-card-back {
+    .people-flip-card-back {
         background-color: #ff9b54;
         color: white;
         transform: rotateY(180deg);
-        font-size: .8rem;
+        font-size: 1.1rem !important;
+        letter-spacing: .004rem;
+        line-height: 1.2;
     }
 }

@@ -3,9 +3,10 @@
     .testingBG {
         width: 100%;
         height: 100%;
-        background-image: url('../assets/Screenshot_13.png');
+        background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
     }
 
     .welcomingText {
@@ -22,18 +23,19 @@
     .welcomingToNext {
         color: white;
         border: 1px solid black;
-        width: 4.5vh;
+        width: 7vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 4.5vh;
+        height: 7vh;
         border-radius: 50%;
         transform: scale(1.2);
         position: relative;
-        top: 50%;
+        top: 40%;
         left: 45%;
         background-color: rgba(122, 119, 119, 0.5);
         animation: slideColorChange 1s infinite;
+        cursor: pointer;
     }
 
     .clickedClicker {
@@ -72,9 +74,11 @@
     .testingBG {
         width: 100%;
         height: 100%;
-        background-image: url('../assets/Screenshot_13.png');
+        background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
+        overflow: hidden;
     }
 
     .welcomingText {
@@ -104,6 +108,7 @@
         left: 48%;
         background-color: rgba(122, 119, 119, 0.5);
         animation: slideColorChange 1s infinite;
+        cursor: pointer;
     }
 
     .clickedClicker {
@@ -140,9 +145,11 @@
     .testingBG {
         width: 100%;
         height: 100%;
-        background-image: url('../assets/Screenshot_13.png');
+        background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
+        overflow: hidden;
     }
 
     .welcomingText {
@@ -172,6 +179,7 @@
         left: 48%;
         background-color: rgba(122, 119, 119, 0.5);
         animation: slideColorChange 1s infinite;
+        cursor: pointer;
     }
 
     .clickedClicker {
@@ -208,9 +216,11 @@
     .testingBG {
         width: 100%;
         height: 100%;
-        background-image: url('../assets/Screenshot_13.png');
+        background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center;
+        overflow: hidden;
     }
 
     .welcomingText {
@@ -240,6 +250,7 @@
         left: 48%;
         background-color: rgba(122, 119, 119, 0.5);
         animation: slideColorChange 1s infinite;
+        cursor: pointer;
     }
 
     .clickedClicker {
@@ -275,18 +286,20 @@
     .testingBG {
         width: 100%;
         height: 100%;
-        background-image: url('../assets/Screenshot_13.png');
+        background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         overflow: hidden;
     }
 
     .welcomingText {
-        color: white;
+        color: red;
         font-size: 3rem;
         position: relative;
         top: 25%;
-        font-weight: bold;
+        font-weight: bolder;
+        letter-spacing: .5rem;
         padding-left: 4rem;
         padding-right: 4rem;
         text-align: center;
@@ -302,12 +315,13 @@
         align-items: center;
         height: 5.5vh;
         border-radius: 50%;
-        transform: scale(1.2);
+        transform: scale(1.3);
         position: relative;
         top: 30%;
         left: 48%;
         background-color: rgba(122, 119, 119, 0.5);
         animation: slideColorChange 1s infinite;
+        cursor: pointer;
     }
 
     .spinner {
@@ -324,7 +338,8 @@
         width: 100vw;
         height: 100vh;
         top: -10%;
-        left: 0%;
+        left: 0%; 
+        background-color: rgba(40, 39, 39, 0.5);
         transition: all .5s;
     }
 
