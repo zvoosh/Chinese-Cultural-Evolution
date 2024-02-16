@@ -23,7 +23,7 @@ const SculptingPage = () => {
                         return --prev
                     })
                         }}>{"<"}</div>
-                <div>{pageTitles[activeTitle]}</div>
+                <div className="ancient-text-below-headline">{pageTitles[activeTitle]}</div>
                 <div className="arrowStyle" onClick={() => {
                         setActiveTitle((prev) => {
                             if (prev === pageTitles.length - 1) {
@@ -36,8 +36,8 @@ const SculptingPage = () => {
             </div>
             
             {activeTitle == 0 && (
-                        <AncientChina/>
-                )}
+                    <AncientChina/>
+            )}
             {activeTitle == 1 && (
                 <Buddhist/>
             )}

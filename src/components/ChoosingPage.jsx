@@ -43,11 +43,9 @@ const ChoosingPage = () => {
                         <Button type="primary" className="bg-blue bold letter-spacing-01 mr-05 myBtn" onClick={()=>{
                             isOpenModal((prev)=>!prev)
                         }}>
-
-                            {/* className="bg-blue bold letter-spacing-01 myBtn" */}
                             Contact
                         </Button>
-                        <Button type="primary"  onClick={goBack}>
+                        <Button type="primary" className="bg-blue bold letter-spacing-01 myBtn" onClick={goBack}>
                             Back
                         </Button>
                     </div>

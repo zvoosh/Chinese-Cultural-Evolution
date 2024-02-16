@@ -1,7 +1,7 @@
 const Modern = () => {
     
     return (<>
-        <div className="p-1 white text-styling letter-spacing-01">
+        <div className="ancient-text-below-paragraph">
         Contemporary Chinese sculpture is like a lively and varied art world that takes inspiration from traditional Chinese art, modern global styles, and what's happening in China. Artists use all sorts of stuff to create their sculptures—bronze, wood, stone, metal, ceramics, and sometimes even things like recycled materials. They mix old-fashioned ways of making art with new technology, coming up with cool and innovative ideas.
         In Chinese cities, there's been a lot more public art recently. Big art installations and sculptures are popping up, making cities look cooler. These pieces aren't just there to look pretty; they also connect with people, telling stories about culture or history. 
         When it comes to the government and art, it's a bit tricky. Some artists have to be careful because there are rules about what can and can't be shown. Some play within those rules, pushing them as far as they can.

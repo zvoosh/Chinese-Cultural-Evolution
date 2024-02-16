@@ -1,7 +1,7 @@
 const AncientChina = () => {
     return (
         <>
-            <div className="p-1 white text-styling letter-spacing-01 ">
+            <div className="ancient-text-below-paragraph">
             Ancient Chinese sculpting represents a rich artistic tradition spanning thousands of years, embracing diverse dynasties, materials, styles, and cultural influences. Materials and techniques used include clay and terracotta, bronze casting, jade carving, and wood and stone carving. Religious and cultural themes encompass Buddhist sculpture, Taoist and Confucian sculpture, while symbolism and decorative arts feature animal motifs and ritual and ceremonial sculptures. Terracotta figures stand as iconic examples of ancient Chinese sculpture, often crafted for burial purposes like the renowned Terracotta Army in Xi'an. The accessibility of clay and terracotta made them popular for both practical and ceremonial sculptures. The Shang and Zhou Dynasties are renowned for remarkable bronze sculptures, employing the sophisticated technique of lost-wax casting to create intricate vessels, ritual objects, and statues with religious, ceremonial, and functional purposes. Wood and stone carving were prevalent across various dynasties, with wooden sculptures often used in religious contexts and stone carving producing monumental statues and reliefs, exemplified by sites like the Longmen Grottoes and Yungang Grottoes. 
             </div>
             <div className="flexing-box">
