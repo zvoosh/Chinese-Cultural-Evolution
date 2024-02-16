@@ -1,10 +1,8 @@
 const Immortals = () =>{
     return (
-        <div className="contentWrap ">
-        <div className="borderWrap bg-red">
-        <div className="bold font-13">
-        The Eight Immortals (八仙)
-        </div>
+        <div >    
+        <div className="folklorePageTitle">
+        The Eight Immortals (八仙)</div>
         <div className="textWrap">
         <div className="mb-1 mt-1">
         First excerpt:
@@ -34,7 +32,6 @@ Meanwhile, Zhongli Quan, the generous immortal, distributed his boundless wealth
 In another corner of the village, Li Tieguai, the compassionate healer, tended to the sick with his magical medicine gourd. The elixir within cured ailments and brought renewed vitality to those in need.
 
 The Eight Immortals, each contributing their unique talents, transformed the desolate village into a haven of abundance and joy. Their deeds, legendary and timeless, echoed the virtues of selflessness, compassion, and the boundless possibilities that unfolded when magic intertwined with benevolence."</div>
-        </div>
         </div>
     </div>
 

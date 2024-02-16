@@ -1,10 +1,8 @@
 const HoeYi = () => {
     return (
-        <div className="contentWrap">
-        <div className="borderWrap ">
-        <div className="bold font-13">
-        The Legend of Hou Yi and Chang'e (后羿与嫦娥) excerpts:
-        </div>
+        <div>
+        <div className="folklorePageTitle">
+        The Legend of Hou Yi and Chang'e (后羿与嫦娥)</div>
         <div className="textWrap">
         <div className="mb-1 mt-1">
         First excerpt:
@@ -33,7 +31,6 @@ As their eyes met amidst the kaleidoscope of starlight, an unspoken connection b
 Yet, the cosmic balance demanded a sacrifice. In the face of an impending celestial calamity, Hou Yi's arrows bore the weight of destiny. Chang'e, in an act of selflessness, embraced the lunar realm, becoming the eternal guardian of a love that spanned realms.
 
 The moon, now adorned with her ethereal presence, bore witness to the celestial romance that transcended mortal confines. Hou Yi's bow, a testament to their enduring love, continued to weave tales of valor and sacrifice across the cosmic canvas."</div>
-        </div>
         </div>
     </div>
     )

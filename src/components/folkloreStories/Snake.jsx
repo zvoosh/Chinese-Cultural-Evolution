@@ -1,10 +1,8 @@
 const Snake = () => {
     return (
-    <div className="contentWrap ">
-    <div className="borderWrap bg-red">
-    <div className="bold font-13">
-    The Legend of the White Snake (白蛇传)
-    </div>
+    <div>
+    <div className="folklorePageTitle">
+    The Legend of the White Snake (白蛇传)</div>
     <div className="textWrap">
     <div className="mb-1 mt-1">
     First excerpt:
@@ -30,7 +28,6 @@ The wise and compassionate Bai Suzhen sought to protect Xu Xian from the complex
 In a dance of fate and free will, the destinies of Bai Suzhen, Xu Xian, and Fahai became interwoven. Love, tested by loyalty and sacrifice, traversed realms as the boundaries between the mortal and immortal blurred.
 
 As the lotus blossoms whispered secrets on the lake's surface, and the moon bore witness to the celestial drama, the Legend of the White Snake echoed through the ages—a timeless ode to love's resilience in the face of cosmic trials."</div>
-    </div>
     </div>
 </div>);
 }

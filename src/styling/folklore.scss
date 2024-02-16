@@ -52,7 +52,8 @@
         color: white;
         display: flex;
         justify-content: center;
-        // align-items: center;
+        align-items: center;
+        background-color: red;
         
     }
 
@@ -145,7 +146,8 @@
     color: white;
     display: flex;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
+    background-color: red;
     
 }
 
@@ -238,7 +240,8 @@
         color: white;
         display: flex;
         justify-content: center;
-        // align-items: center;
+        align-items: center;
+        background-color: red;
         
     }
     
@@ -331,7 +334,8 @@
     color: white;
     display: flex;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
+    background-color: red;
     
 }
 
@@ -370,6 +374,67 @@
 }
 
 @media only screen and (min-width: 1441px) {
+
+
+    .carouselContinterFolklore {
+        width: 100%;
+        margin-top: 2rem;
+        display: block;
+        height: auto;
+    }
+
+    .contFolk{
+        width: 100%;
+        padding-bottom: 3rem;
+        display: flex;
+    }
+
+    .goLeftIconFolk{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .goRightIconFolk{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border: 1px solid white;
+        color: white;
+        width: 3vh;
+        text-align: center;
+        border-radius: 20%;
+        height: 3vh;
+        transform: scale(1.5);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .folkNesto{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
 .folklorePageTitle{
     color: white;
     text-align: center;
@@ -422,21 +487,33 @@
     color: white;
     display: flex;
     justify-content: center;
-    // align-items: center;
+    align-items: center;
     
 }
 
 .borderWrap{
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 70%;
     overflow: auto;
 }
+
+.sub-title-folk{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .11rem;
+}
+
 .textWrap{
-    font-weight: bold;
-    font-size: 1.1rem;
+    letter-spacing: .11rem;
+    font-size: 1rem;
+    padding-top: 1rem;
     text-align: justify;
+    color: white;
 }
 
 .arrowdisplay{

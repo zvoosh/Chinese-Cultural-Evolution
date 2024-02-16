@@ -1,8 +1,7 @@
 const Lovers = () => {
     return (
-    <div className="contentWrap ">
-    <div className="borderWrap bg-red">
-    <div className="bold font-13">
+    <div >
+        <div className="folklorePageTitle">
     The Butterfly Lovers (梁山伯与祝英台)
     </div>
     <div className="textWrap">
@@ -34,7 +33,6 @@ In a cascade of events, Zhu Yingtai's true identity unfurled, and the revelation
 But destiny, cruel and relentless, intervened. The Butterfly Lovers were caught in the web of tragedy, their love a fleeting moment that transcended mortal existence.
 
 In the celestial heavens, their spirits danced among the stars, etching the Butterfly Lovers' saga into the vast expanse of time—a story of love that soared like a butterfly, ephemeral yet everlasting."</div>
-    </div>
     </div>
 </div>
     )

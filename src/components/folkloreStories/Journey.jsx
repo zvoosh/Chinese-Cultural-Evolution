@@ -1,8 +1,7 @@
 const Journey = () => {
     return (
-        <div className="contentWrap ">
-        <div className="borderWrap bg-red">
-        <div className="bold font-13">
+        <div>
+        <div className="folklorePageTitle">
         Journey to the West (西游记) excerpts:
         </div>
         <div className="textWrap">
@@ -29,7 +28,6 @@ In the heart of the enchanted woods, he encountered a wise old sage meditating b
 'Monkey,' the sage intoned, 'within these woods lies the Forest of Illusions. Many have ventured in, but few have emerged unscathed. To navigate its twists and turns, you must trust not only your eyes but also the wisdom within your heart.'
 
 With a wave of his hand, the sage bestowed upon Monkey a mystical charm, a talisman to ward off the illusions that awaited. 'Remember, true strength is not in the absence of challenges but in overcoming them with a clear mind and unwavering spirit.'"
-        </div>
         </div>
         </div>
     </div>

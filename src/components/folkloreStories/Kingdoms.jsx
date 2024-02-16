@@ -1,8 +1,7 @@
 const Kingdoms = () => {
     return (
-        <div className="contentWrap ">
-        <div className="borderWrap bg-red">
-        <div className="bold font-13">
+        <div >
+        <div className="folklorePageTitle">
         Romance of the Three Kingdoms (三国演义) excerpts:
         </div>
         <div className="textWrap">
@@ -26,7 +25,6 @@ On the eve of a pivotal confrontation, Cao Cao stood before his generals, each w
 As the armies mobilized, a shadowy figure emerged from the ranks – Lu Bu, the fearsome warrior with a gaze as fierce as his halberd. Cao Cao's eyes met Lu Bu's, and in that moment, the battlefield trembled with the weight of destiny.
 
 In the midst of chaos, alliances shifted like shifting sands, and the echoes of strategies unfolded like a complex game of chess. The Three Kingdoms stood at the precipice, and the dance of war began, a symphony of ambition and betrayal that would echo through the ages."</div>
-        </div>
         </div>
     </div>
     )
