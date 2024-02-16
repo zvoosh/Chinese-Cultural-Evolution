@@ -13,9 +13,9 @@ const SculptingPage = () => {
 
     return (
         <div className="w-100 h-100 bg-green overflow">
-            <div className="white font-15 pt-1 bold letter-spacing-01 text-center">
-            <div className="arrowdisplay pl-2 pr-2">
-                <div className="arrowStyle" onClick={() => {
+            <div className="white  pt-1 bold letter-spacing-01 text-center">
+            <div className="contSculpt">
+                <div className="goLeftIconSculpt" onClick={() => {
                     setActiveTitle((prev) => {
                         if (prev === 0) {
                             return 0;
@@ -24,7 +24,7 @@ const SculptingPage = () => {
                     })
                         }}>{"<"}</div>
                 <div className="ancient-text-below-headline">{pageTitles[activeTitle]}</div>
-                <div className="arrowStyle" onClick={() => {
+                <div className="goRightIconSculpt" onClick={() => {
                         setActiveTitle((prev) => {
                             if (prev === pageTitles.length - 1) {
                                 return pageTitles.length - 1;
@@ -50,13 +50,6 @@ const SculptingPage = () => {
             {activeTitle == 4 && (
                 <Modern/>
             )}
-            {/* 
-            {activeTitle == 5 && (
-                <Snake/>
-            )}
-            {activeTitle == 6 && (
-                <Lovers/>
-            )} */}
         </div>
     );
 }

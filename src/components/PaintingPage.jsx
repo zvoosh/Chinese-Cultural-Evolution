@@ -17,8 +17,8 @@ const PaintingPage = () => {
     return (
         <div className="w-100 h-100 bg-green mobileHelp">
             <div className="pr-1 pt-1 pl-1">
-                <div className="flex justify-center w-100 mb-1">
-                    <div className="pointer" onClick={() => {
+                <div className="flex justify-center w-100 ">
+                    <div className="goLeftIconPaint" onClick={() => {
                         SetActiveTitle((prev) => {
                             if (prev === 0) {
                                 return 0;
@@ -31,7 +31,7 @@ const PaintingPage = () => {
                     <div className="titlePaint">
                         {titles[activeTitle]}
                     </div>
-                    <div className="pointer" onClick={() => {
+                    <div className="goLeftIconPaint" onClick={() => {
                         SetActiveTitle((prev) => {
                             if (prev === titles.length - 1) {
                                 return titles.length - 1;

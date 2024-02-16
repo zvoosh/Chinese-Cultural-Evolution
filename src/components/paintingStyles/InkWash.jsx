@@ -2,7 +2,7 @@ const InkWash = () => {
     return (
         <div className="pageWrapper  ">
             <div className="textwrapper">
-                <div className="letter-spacing-01 textHelp">
+                <div className="textHelp">
                     Also known as Sumi-e in Japan, this style is characterized by the use of simple brushstrokes, black ink, and often monochromatic color schemes.
                     Artists focus on expressing the essence of the subject rather than detailed representation.
                     Ink and Wash Painting is a traditional Chinese painting style that has a long and rich history.
@@ -33,7 +33,7 @@ const InkWash = () => {
             <div className="pictureWrap">
                 <div className="firstPicture">
                 </div>
-                <div className="w-100 text-center bold">
+                <div className="w-100 picture-title text-center bold">
                     Wang Wei (王维)（701－761）
                 </div>
             </div>

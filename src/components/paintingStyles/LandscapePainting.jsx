@@ -35,7 +35,7 @@ const LandscapePainting = () => {
             <div className="pictureWrap">
                 <div className="forthPicture">
                 </div>
-                <div className="w-100 text-center bold">
+                <div className="w-100 picture-title text-center bold">
                     Fan Kuan, Travelers among Mountains and Streams 10th or 11th
                 </div>
             </div>

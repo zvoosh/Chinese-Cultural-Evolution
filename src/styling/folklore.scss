@@ -4,10 +4,10 @@
         color: white;
         text-align: center;
         width: 100%;
-        font-size: .9rem;
+        font-size: 1.1rem;
         padding-top: 1rem;
         font-weight: bold;
-        letter-spacing: .3rem;
+        letter-spacing: .2rem;
     }
 
     .contFolk{
@@ -70,8 +70,10 @@
         padding: 2rem;
         padding-top: 1rem;
         letter-spacing: .11rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
+
     .divWrap{
         // background-color: blue;
         width: 100%;
@@ -150,7 +152,7 @@
     color: white;
     text-align: center;
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     padding-top: 1rem;
     font-weight: bold;
     letter-spacing: .3rem;
@@ -216,8 +218,11 @@
     padding: 2rem;
     padding-top: 1rem;
     letter-spacing: .11rem;
+    font-size: 1.7rem;
     margin-top: 1rem;
 }
+
+
 .divWrap{
     // background-color: blue;
     width: 100%;
@@ -261,9 +266,10 @@
     height: 60%;
     overflow: auto;
 }
+
 .textWrap{
     letter-spacing: .11rem;
-    font-size: 1rem;
+    font-size: 1.7rem;
     padding-top: 1rem;
     text-align: justify;
     color: white;
@@ -363,8 +369,10 @@
         padding: 2rem;
         padding-top: 1rem;
         letter-spacing: .11rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
+    
     .divWrap{
         // background-color: blue;
         width: 100%;
@@ -510,8 +518,10 @@
     padding: 2rem;
     padding-top: 1rem;
     letter-spacing: .11rem;
+    font-size: 1rem;
     margin-top: 1rem;
 }
+
 .divWrap{
     // background-color: blue;
     width: 100%;
@@ -664,6 +674,7 @@
     padding: 2rem;
     padding-top: 1rem;
     letter-spacing: .11rem;
+    font-size: 1.1rem;
     margin-top: 1rem;
 }
 .divWrap{
@@ -720,7 +731,7 @@
 
 .textWrap{
     letter-spacing: .11rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 1rem;
     text-align: justify;
     color: white;
@@ -733,16 +744,4 @@
 }
 
 
-.arrowStyle{
-    cursor: pointer;
-    user-select: none;
-    width: fit-content;
-    height: fit-content;
-    padding: .6rem;
-    border-radius: .5rem;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
 }
