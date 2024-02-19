@@ -52,7 +52,7 @@ const ChoosingPage = () => {
                 </div>
             </div>
 
-            <Modal title="Send me an email" open={openModal} footer={null} onCancel={()=>{
+            <Modal centered title="Send me an email" open={openModal} footer={null} onCancel={()=>{
                 isOpenModal((prev)=>!prev);
             }} destroyOnClose={true}>
             <div className="w-100 h-100 flex justify-center align-center">  
