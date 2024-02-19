@@ -1,6 +1,6 @@
 const Snake = () => {
     return (
-    <div>
+    <div  className="wrapper">
     <div className="folklorePageTitle">
     The Legend of the White Snake (白蛇传)</div>
     <div className="textWrap">

@@ -1,6 +1,6 @@
 const Kingdoms = () => {
     return (
-        <div >
+        <div  className="wrapper">
         <div className="folklorePageTitle">
         Romance of the Three Kingdoms (三国演义) excerpts:
         </div>

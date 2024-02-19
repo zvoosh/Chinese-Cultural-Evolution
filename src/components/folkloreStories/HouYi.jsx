@@ -1,6 +1,6 @@
 const HoeYi = () => {
     return (
-        <div>
+        <div  className="wrapper">
         <div className="folklorePageTitle">
         The Legend of Hou Yi and Chang'e (后羿与嫦娥)</div>
         <div className="textWrap">

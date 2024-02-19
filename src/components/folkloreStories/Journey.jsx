@@ -1,6 +1,6 @@
 const Journey = () => {
     return (
-        <div>
+        <div  className="wrapper">
         <div className="folklorePageTitle">
         Journey to the West (西游记) excerpts:
         </div>

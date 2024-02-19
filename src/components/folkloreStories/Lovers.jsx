@@ -1,6 +1,6 @@
 const Lovers = () => {
     return (
-    <div >
+    <div  className="wrapper">
         <div className="folklorePageTitle">
     The Butterfly Lovers (梁山伯与祝英台)
     </div>

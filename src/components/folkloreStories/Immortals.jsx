@@ -1,6 +1,6 @@
 const Immortals = () =>{
     return (
-        <div >    
+        <div  className="wrapper">    
         <div className="folklorePageTitle">
         The Eight Immortals (八仙)</div>
         <div className="textWrap">
