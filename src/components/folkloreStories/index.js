@@ -5,3 +5,4 @@ export {Journey} from './Journey';
 export {Kingdoms} from './Kingdoms';
 export {Lovers} from './Lovers';
 export {Snake} from './Snake';
+export {FolklorePage} from './FolklorePage';

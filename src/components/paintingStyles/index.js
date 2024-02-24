@@ -1,0 +1,1 @@
+export { PaintingPage } from "./PaintingPage";

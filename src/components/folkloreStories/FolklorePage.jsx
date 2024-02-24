@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Journey, Kingdoms, HoeYi, Immortals, Snake, Lovers, DefaultStory } from "./folkloreStories";
+import { Journey, Kingdoms, HoeYi, Immortals, Snake, Lovers, DefaultStory } from ".";
 
 const FolklorePage = () => {
 

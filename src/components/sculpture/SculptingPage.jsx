@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { AncientChina } from "./sculpture/ancientChina";
-import { Buddhist } from "./sculpture/Buddhist";
-import { TangAndSong } from "./sculpture/TangAndSong";
-import { MingAndQing } from "./sculpture/MingAndQing";
-import { Modern } from "./sculpture/Modern";
+import { AncientChina } from "./ancientChina";
+import { Buddhist } from "./Buddhist";
+import { TangAndSong } from "./TangAndSong";
+import { MingAndQing } from "./MingAndQing";
+import { Modern } from "./Modern";
 
 const SculptingPage = () => {
     

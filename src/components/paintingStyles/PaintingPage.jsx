@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { InkWash } from "./paintingStyles/InkWash";
-import { Gongbi } from "./paintingStyles/Gongbi";
-import { Xieyi } from "./paintingStyles/Xieyi";
-import { LandscapePainting } from "./paintingStyles/LandscapePainting";
-import { BirdFlower } from "./paintingStyles/BirdFlower";
-import { Baimiao } from "./paintingStyles/Baimiao";
-import { Realistic } from "./paintingStyles/Realistic";
+import { InkWash } from "./InkWash";
+import { Gongbi } from "./Gongbi";
+import { Xieyi } from "./Xieyi";
+import { LandscapePainting } from "./LandscapePainting";
+import { BirdFlower } from "./BirdFlower";
+import { Baimiao } from "./Baimiao";
+import { Realistic } from "./Realistic";
 
 const PaintingPage = () => {
 
