@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Noto+Sans+TC:wght@300&display=swap');
 
+.overflow-y{
+    overflow-y: auto;
+}
+
 .w-fit {
     width: fit-content;
 }
@@ -14,6 +18,14 @@
 
 .w-100 {
     width: 100%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-80 {
+    width: 80%;
 }
 
 .w-75 {
@@ -34,6 +46,10 @@
 
 .w-25 {
     width: 25%;
+}
+
+.w-10 {
+    width: 10%;
 }
 
 .w-0 {
@@ -58,6 +74,13 @@
 
 .h-75 {
     height: 75%;
+}
+.h-60 {
+    height: 60%;
+}
+
+.h-55 {
+    height: 55%;
 }
 
 .h-50 {

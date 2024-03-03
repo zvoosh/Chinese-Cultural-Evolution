@@ -4,12 +4,18 @@ import { Chooser } from "./Chooser";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import TextArea from "antd/es/input/TextArea";
+import { IoMdMenu } from "react-icons/io";
 
 const ChoosingPage = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const [openModal, isOpenModal] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const form = useRef();
+  
+  const handleNavigation = (path) => {
+    navigate(path);
+};
 
     const goBack = () => {
         navigate(-1);
@@ -34,10 +40,81 @@ const ChoosingPage = () => {
 
     return (
         <div className="overflow-hidden w-100 h-100">
-            <div className="w-100 bg-red p-1">
+            <div className="w-100  hd-bg-image bg-red p-1">
+                    
+                    <div className="disable-enable">
                 <div className="flex space-between w-100" >
                     <div className="title">
                         Brief History of China
+                    </div>    
+                    <div className="side-menu">
+
+                            <div className="menu-icon" onClick={()=>setIsMenuOpen((prev)=>!prev)}>
+                        <IoMdMenu/>
+                    </div>
+                        {isMenuOpen && (
+                            <div className="open-menu">
+                                <div className="title mt-1 ml-1">
+                                    Brief History of China
+                                </div>
+                                <div className="head-navigation">
+                                    <div  className={`head-nav-link  ${location.pathname == '/first-page' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/first-page')
+                                    }}>
+                                    <div className="mr-1">Home</div>
+                                    </div>
+                                    <div  className={`head-nav-link ${location.pathname == '/first-page/people' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/first-page/people')
+                                    }}>
+                                    <div className="mr-1">People</div>
+                                    </div>
+                                    <div  className={`head-nav-link ${location.pathname == '/first-page/painting' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/first-page/painting')
+                                    }}>
+                                    <div className="mr-1">Paintings</div>
+                                    </div>
+                                    <div  className={`head-nav-link ${location.pathname == '/first-page/folklore' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/first-page/folklore')
+                                    }}>
+                                    <div className="mr-1">Folklore</div>
+                                    </div>
+                                    <div  className={`head-nav-link ${location.pathname == '/first-page/craftmenship' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/first-page/craftmenship')
+                                    }}>
+                                    <div className="mr-1">Craftmenship</div>
+                                    </div>
+                                    </div>
+                                    <div className=" mr-1 flex justify-end align-end">
+                                    <div  className='head-nav-link' onClick={()=>{
+                                    isOpenModal((prev)=>!prev)
+                                }}>Contact</div>
+                                </div>
+                            </div>
+                            )}
+                        
+                    </div>
+                    
+                </div>
+                    </div>
+                    <div className="enable-disable w-100">
+                        
+                <div className="flex space-between w-100" >
+                    <div className="title">
+                        Brief History of China
+                    </div>    
+                    <div className="head-navigation">
+                        <div  className={`head-nav-link  ${location.pathname == '/first-page/people' &&  'active-link'}`}   onClick={() => {
+                            handleNavigation('/first-page/people')
+                        }}>People</div>
+                        <div  className={`head-nav-link  ${location.pathname == '/first-page/painting' &&  'active-link'}`}  onClick={() => {
+                            handleNavigation('/first-page/painting')
+                        }}>Paintings</div>
+                        <div className={`head-nav-link  ${location.pathname == '/first-page/folklore' &&  'active-link'}`} onClick={() => {
+                            handleNavigation('/first-page/folklore')
+                        }}>Folklore</div>
+                        <div className={`head-nav-link  ${location.pathname == '/first-page/craftmenship' &&  'active-link'}`} onClick={() => {
+                            handleNavigation('/first-page/craftmenship')
+                        }}>Craftmenship</div>
                     </div>
                     <div className="mr-2 button-holder">
                         <Button type="primary" className="bg-blue bold letter-spacing-01 mr-05 myBtn" onClick={()=>{
@@ -49,7 +126,8 @@ const ChoosingPage = () => {
                             Back
                         </Button>
                     </div>
-                </div>
+                            </div>
+                            </div>
             </div>
 
             <Modal centered title="Send me an email" open={openModal} footer={null} onCancel={()=>{

@@ -1,10 +1,32 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";    
+import { GoDot } from "react-icons/go";
+import { GoDotFill } from "react-icons/go";
+import { CiPause1 } from "react-icons/ci";
+import { SlControlStart } from "react-icons/sl";
 
 
 const PeoplePage = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-
+    const [isStopIcon, setIsStopIcon] = useState(true);
+    const interval = 5000;
     const titles = ["CHINA AND HER PEOPLE", "WESTERN CHINA", "EASTERN CHINA", "SOUTHERN CHINA", "NORTHERN CHINA", "CENTRAL CHINA", "HIMALAYAS", "Tian Shan Moutains"];
+
+    useEffect(() => {
+       let timer;
+       if(isStopIcon === true){
+           timer = setInterval(() => {
+            console.log(isStopIcon)
+             setCurrentIndex(prevIndex =>
+                 prevIndex === titles.length - 1 ? 0 : prevIndex + 1
+             );
+         }, interval);
+    }
+
+        return () => clearInterval(timer);
+    }, [titles.length, isStopIcon]);
+
+
+    
 
     const texts = [
         "China is an incredibly diverse country with a rich tapestry of cultures, languages, and ethnic groups. The differences in culture and physical appearance among various regions and ethnic groups in China can be significant.In terms of language and dialects, Mandarin serves as the official language, yet numerous regions boast their own dialects or languages, including Cantonese, Shanghainese, Hokkien, Tibetan, Uighur, and more.Cuisine exhibits diversity across the country, with each region showcasing unique culinary specialties; for instance, Sichuan cuisine (Southwestern China) is renowned for its spicy flavors, while Cantonese (Southeastern China) cuisine places emphasis on freshness and subtlety.Traditional customs also vary among regions, with distinct practices, festivals, and ceremonies; for example, the customs observed during the Chinese New Year may differ significantly from one region to another."
@@ -27,41 +49,76 @@ const PeoplePage = () => {
 
     return (<>
     
-        <div className="w-100 h-100 bg-green overflow-Y">
-        {currentIndex != null && (
+        <div className="w-100 h-100 overflow-Y" style={{background:"#5b2528"}}>
+            <div className="headliner-holder">
+            <div className="headliner">
+            </div>
+            </div>
+            {currentIndex != null && (
                 <div className="carouselContainer">
-                    <div className="cont">
-                        <div className="goLeftIcon" onClick={() => {
-                            setCurrentIndex((prev) => {
-                                if (prev === 0) {
-                                    return 0;
-                                }
-                                return --prev
-                            })
-                        }}>
-                            {"<"}
+                    <div className="cont" >
+                        <div className="w-100 flex justify-end">
+                        <>
+                            {isStopIcon ? (
+                                <div className="iconStop" onClick={()=>{
+                                    setIsStopIcon(false)
+                                }}><CiPause1/></div>
+                                ) : (
+                                    <div className="iconStop"  onClick={()=>{
+                                        setIsStopIcon(true)
+                                }}><SlControlStart/></div>
+                            )}
+                        </>
                         </div>
-                        <div className="nestoo">
+                        <div className="nestoo" id="nesto1" >
+                        <div className="scrollholder" >
                             <div className="text-below-headline">
                                 {titles[currentIndex]}
                             </div>
                             <div className="text-below-paragraph">
                                 {texts[currentIndex]}
                             </div>
+                            </div>
                         </div>
-                        <div className="goRightIcon" onClick={() => {
-                            setCurrentIndex((prev) => {
-                                if (prev === titles.length - 1) {
-                                    return titles.length - 1;
-                                }
-                                return ++prev;
-                            })
-                        }}>
-                            {">"}
+                        <div className="pointers">
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(0)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 0 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(1)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 1 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(2)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 2 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(3)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 3 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(4)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 4 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(5)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 5 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(6)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 6 ? <GoDotFill/> : <GoDot/> }</div>
+                            <div className="dots" onClick={()=>{
+                                setCurrentIndex(7)
+                                setIsStopIcon(true)
+                                }}>{currentIndex == 7 ? <GoDotFill/> : <GoDot/> }</div>
                         </div>
                     </div>
                 </div>
             )}
+            <div className="w-100 h-100">
+
             <div className="people-flip-cards">
                 <div className="people-flip-card">
                     <div className="people-flip-card-inner">
@@ -177,6 +234,7 @@ const PeoplePage = () => {
                 </div>
             </div>
             
+            </div>
         </div >
 
     </>)

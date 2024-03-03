@@ -54,7 +54,7 @@ const Chooser = ({ navFn }) => {
                     </div>
                 </div>
                 <div className="nav-card forth"  onClick={() => {
-                            handleNavigation('/first-page/sculptings')
+                            handleNavigation('/first-page/craftmenship')
                         }}>
                     <div className="nav-content">
                     <div className="nav-title">

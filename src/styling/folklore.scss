@@ -1,5 +1,102 @@
 @media only screen and (max-width: 767px) {
 
+    .story-point{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: center;
+        position: relative;
+        top: -3rem;
+        flex-direction: row;
+    }
+
+    .story-dots{
+        color: white;
+        cursor: pointer;
+        transform: scale(1.5);
+        margin-left: 1rem;
+        position: relative;
+        top: 1rem;
+        
+    }
+
+    .display-none-folk{
+        display: none;
+    }
+
+    .iconStopFolk{
+        margin-right: -1.5rem;
+        margin-top: -2rem;
+        transform: scale(1.4);
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+
+    
+    .wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    
+    .carosel-holder{
+        width: 100%;
+        margin-top: 2rem;
+        height: 100%;
+        // margin-left: -3.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ba181b;
+        padding-right: 1rem;
+        background-image: url('../assets/bggg.png');
+    }
+    
+    .content-holder{
+        width: 100%;
+        height: 100vh;
+        // background-color: blue;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        display: block;
+        overflow-y: auto;
+    }
+
+    .progress-baric{
+        margin-left: 1.5rem !important;
+        // margin-top: -4rem;
+    }
+
+    .ant-tabs-tab {
+        /* Your styles here */
+        padding: 1rem !important;
+        font-size: .2rem !important;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: red !important;
+    }
+    
+    .ant-tabs .ant-tabs-ink-bar{
+        background-color: red !important;
+        margin-left: 2rem !important;
+    }
+
+
     .folklorePageTitle{
         color: white;
         text-align: center;
@@ -119,7 +216,7 @@
     }
     .textWrap{
         letter-spacing: .11rem;
-        font-size: 1rem;
+        font-size: .8rem;
         padding-top: 1rem;
         text-align: justify;
         color: white;
@@ -147,12 +244,129 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+      
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background:   white;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background:  rgb(85,85,85); 
+    }
+   
+
+    
+    .story-point{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: center;
+        position: relative;
+        top: -3rem;
+        flex-direction: row;
+    }
+
+    .story-dots{
+        color: white;
+        cursor: pointer;
+        transform: scale(1.5);
+        margin-left: 1rem;
+        position: relative;
+        top: 1rem;
+        
+    }
+
+    .display-none-folk{
+        display: none;
+    }
+
+    .iconStopFolk{
+        margin-right: -1.5rem;
+        margin-top: -1rem;
+        transform: scale(1.7);
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+
+    
+    .wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    
+    .carosel-holder{
+        width: 100%;
+        margin-top: 2rem;
+        height: 100%;
+        // margin-left: -3.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ba181b;
+        padding-right: 1rem;
+        background-image: url('../assets/bggg.png');
+    }
+    
+    .content-holder{
+        width: 100%;
+        height: 100vh;
+        // background-color: blue;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        display: block;
+        overflow-y: auto;
+    }
+
+    .progress-baric{
+        margin-left: 1.5rem !important;
+        // margin-top: -4rem;
+    }
+
+    .ant-tabs-tab {
+        /* Your styles here */
+        padding: 1rem !important;
+        font-size: .2rem !important;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: red !important;
+    }
+    
+    .ant-tabs .ant-tabs-ink-bar{
+        background-color: red !important;
+        margin-left: 2rem !important;
+    }
+
     
 .folklorePageTitle{
     color: white;
     text-align: center;
     width: 100%;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     padding-top: 1rem;
     font-weight: bold;
     letter-spacing: .3rem;
@@ -269,7 +483,7 @@
 
 .textWrap{
     letter-spacing: .11rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding-top: 1rem;
     text-align: justify;
     color: white;
@@ -297,7 +511,125 @@
 }
 
 
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+      
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background:   white;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background:  rgb(85,85,85); 
+    }
+   
+
+    
+    .story-point{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: center;
+        position: relative;
+        top: -3rem;
+        flex-direction: row;
+    }
+
+    .story-dots{
+        color: white;
+        cursor: pointer;
+        transform: scale(1.5);
+        margin-left: 1rem;
+        position: relative;
+        top: 1rem;
+        
+    }
+
+    .display-none-folk{
+        display: none;
+    }
+
+    .iconStopFolk{
+        margin-right: -1.5rem;
+        margin-top: -1rem;
+        transform: scale(1.7);
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+
+    
+    .wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    
+    .carosel-holder{
+        width: 100%;
+        margin-top: 2rem;
+        height: 100%;
+        // margin-left: -3.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ba181b;
+        padding-right: 1rem;
+        background-image: url('../assets/bggg.png');
+    }
+    
+    .content-holder{
+        width: 100%;
+        height: 100vh;
+        // background-color: blue;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        display: block;
+        overflow-y: auto;
+    }
+
+    .progress-baric{
+        margin-left: 1.5rem !important;
+        // margin-top: -4rem;
+    }
+
+    .ant-tabs-tab {
+        /* Your styles here */
+        padding: 1rem !important;
+        font-size: .2rem !important;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: red !important;
+    }
+    
+    .ant-tabs .ant-tabs-ink-bar{
+        background-color: red !important;
+        margin-left: 2rem !important;
+    }
+
+
 
     .folklorePageTitle{
         color: white;
@@ -595,9 +927,119 @@
 
 @media only screen and (min-width: 1441px) {
 
+    .ant-tabs-tab {
+        /* Your styles here */
+        padding: 1rem !important;
+        font-size: 1.2rem !important;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: red !important;
+    }
+    
+    .ant-tabs .ant-tabs-ink-bar{
+        background-color: red !important;
+    }
+
+    .trans{
+        transform: translateX(-30px);
+        transition: all 1s;
+    }
+
+    .carosel-holder{
+        width: 90%;
+        margin-top: 2rem;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ba181b;
+        background-image: url('../assets/bggg.png');
+    }
+
+    .content-holder{
+        width: 100%;
+        height: 70vh;
+        // background-color: blue;
+        display: block;
+        // overflow-y: auto;
+    }
+
+    .iconStopFolk{
+        margin-right: 3rem;
+        margin-top: 2rem;
+        transform: scale(1.4);
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+
+    .textWrap{
+        letter-spacing: .11rem;
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.1rem; 
+        padding-top: 1rem;
+        text-align: justify;
+        background-color: rgba(0, 0, 0, 0.2);
+        overflow-y: auto;
+        height: 60%;
+        color: white;
+    }
+
+    .story-point{
+        display: flex;
+        margin-top: 4rem;
+        position: relative;
+        top: -5rem;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .progress-baric{
+        margin-left: .5rem;
+        margin-top: -0.5rem;
+    }
+
+.card-loaded{
+    padding-top: .5rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+
+.story-dots{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-left: 1rem;
+    position: relative;
+    top: 1rem;
+    
+}
+
+
+    .paragraph-hold{
+        letter-spacing: .12rem;
+    }
+
     .wrapper{
         height: 100%;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 5rem;
     }
 
@@ -612,7 +1054,7 @@
     .contFolk{
         width: 100%;
         padding-bottom: 3rem;
-        display: flex;
+        display: none;
     }
 
     .goLeftIconFolk{
@@ -669,6 +1111,7 @@
     padding-top: 1rem;
     font-weight: bold;
     letter-spacing: .3rem;
+    margin-bottom: 2rem;
 }
 
 .overflowHelp{
@@ -718,6 +1161,10 @@
     
 }
 
+.display-noneee{
+    display: none;
+}
+
 .borderWrap{
     border-radius: 2rem;
     padding: 1rem;
@@ -729,19 +1176,16 @@
     overflow: auto;
 }
 
+.display-yes{
+    display: block;
+}
+
 .sub-title-folk{
     color: white;
     font-size: 1rem;
     letter-spacing: .11rem;
 }
 
-.textWrap{
-    letter-spacing: .11rem;
-    font-size: 1.1rem;
-    padding-top: 1rem;
-    text-align: justify;
-    color: white;
-}
 
 .arrowdisplay{
     display: flex;

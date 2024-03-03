@@ -4,6 +4,60 @@
         font-size: 1.4rem;
     }
 
+
+    .paintings-holder{
+        width: 100%;
+        height: 100%;
+        // background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+.brateee{
+    width: 400px; 
+    height: 200px; 
+}
+
+    .painting-wrap{
+        width: 400px; 
+        height: 600px;  
+        
+        
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .painting-image{
+        width: 300px; 
+        height: 450px; 
+        background-color: rgba(24, 43, 44, .08); 
+        border-radius: 1rem;
+        background-image: url('../assets/WangWei.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .painting-title {
+        width: 80%;
+        height: 20px;
+        margin-top: 1.5rem; 
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+
     .titlePaint {
         font-weight: bold;
         color: white;
@@ -16,14 +70,13 @@
     .pageWrapper {
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .textwrapper {
         margin-right: 1rem;
         height: 100%;
-        margin-top: -7rem;
     }
 
     .textHelp {
@@ -151,6 +204,61 @@
         font-size: 1.4rem;
     }
 
+
+    .paintings-holder{
+        width: 100%;
+        height: 100%;
+        // background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+.brateee{
+    width: 400px; 
+    height: 200px; 
+}
+
+    .painting-wrap{
+        width: 400px; 
+        height: 600px;  
+        
+        
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .painting-image{
+        width: 300px; 
+        height: 450px; 
+        background-color: rgba(24, 43, 44, .08); 
+        border-radius: 1rem;
+        background-image: url('../assets/WangWei.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .painting-title {
+        width: 80%;
+        height: 20px;
+        margin-top: 1.5rem; 
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+
+
     .titlePaint {
         font-weight: bold;
         color: white;
@@ -166,14 +274,14 @@
     .pageWrapper {
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .textwrapper {
         margin-right: 1rem;
         height: 100%;
-        margin-top: -15rem;
+        // margin-top: -15rem;
     }
 
     .textHelp {
@@ -312,14 +420,13 @@
     .pageWrapper {
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .textwrapper {
         margin-right: 1rem;
         height: 100%;
-        margin-top: -5rem;
     }
 
     .textHelp {
@@ -459,20 +566,19 @@
     .pageWrapper {
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .textwrapper {
         margin-right: 1rem;
         height: 100%;
-        margin-top: -5rem;
     }
 
     .textHelp {
         margin-bottom: 5rem;
         letter-spacing: .12rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .mobileHelp {
         overflow: auto;
@@ -593,10 +699,63 @@
         font-size: 1.4rem;
     }
 
+    
+
+    .paintings-holder{
+        width: 100%;
+        height: 100%;
+        // background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+.brateee{
+    width: 400px; 
+    height: 200px; 
+}
+
+    .painting-wrap{
+        width: 400px; 
+        height: 600px;  
+        
+        
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .painting-image{
+        width: 300px; 
+        height: 450px; 
+        background-color: rgba(24, 43, 44, .08); 
+        border-radius: 1rem;
+        background-image: url('../assets/WangWei.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .painting-title {
+        width: 80%;
+        height: 20px;
+        margin-top: 1.5rem; 
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
     .titlePaint {
         font-weight: bold;
         color: white;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         text-align: center;
         margin: 0.5rem;
         width: 100%;
@@ -607,20 +766,19 @@
     .pageWrapper {
         color: white;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 1rem;
     }
 
     .textwrapper {
         margin-right: 1rem;
         height: 100%;
-        margin-top: -5rem;
     }
 
     .textHelp {
         margin-bottom: 5rem;
         letter-spacing: .12rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .mobileHelp {
         overflow: auto;
@@ -749,6 +907,59 @@
         margin-right: 10rem;
     }
 
+
+    .paintings-holder{
+        width: 100%;
+        height: 100%;
+        // background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+.brateee{
+    width: 400px; 
+    height: 200px; 
+}
+
+    .painting-wrap{
+        width: 400px; 
+        height: 500px;  
+        
+        
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .painting-image{
+        width: 300px; 
+        height: 450px; 
+        background-color: rgba(24, 43, 44, .08); 
+        border-radius: 1rem;
+        background-image: url('../assets/WangWei.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .painting-title {
+        width: 80%;
+        height: 20px;
+        margin-top: 1.5rem; 
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
     
     .textHelp {
         margin-bottom: 5rem;
@@ -868,7 +1079,9 @@
     .pageWrapper {
         color: white;
         display: flex;
+        flex-direction: column;
         padding-top: 1rem;
+        overflow-y: scroll;
     }
 
 
@@ -888,11 +1101,62 @@
         margin-right: 10rem;
     }
 
+
+    .paintings-holder{
+        width: 100%;
+        height: 100%;
+        // background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+.brateee{
+    width: 400px; 
+    height: 200px; 
+}
+
+    .painting-wrap{
+        width: 400px; 
+        height: 500px;  
+        // background-color: #ba181b;
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .painting-image{
+        width: 300px; 
+        height: 450px; 
+        background-color: rgba(24, 43, 44, .08); 
+        border-radius: 1rem;
+        background-image: url('../assets/WangWei.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .painting-title {
+        width: 80%;
+        height: 20px;
+        margin-top: 1.5rem; 
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
     .firstPicture {
         background-image: url('../assets/WangWei.jpg');
-        background-position: 50% 0%;
         width: 100%;
-        height: 55%;
+        height: 100%;
         background-repeat: no-repeat;
     }
 

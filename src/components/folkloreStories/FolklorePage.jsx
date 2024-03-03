@@ -5,7 +5,7 @@ const FolklorePage = () => {
 
     const [activeTitle, setActiveTitle] = useState(0);
 
-    const folkTitle = ['We have prepared a few excerpts from stories.', 'Journey to the West (西游记)', 'Romance of the Three Kingdoms (三国演义)', "The Legend of Hou Yi and Chang'e (后羿与嫦娥)", "The Eight Immortals (八仙)" , "The Legend of the White Snake (白蛇传)", "The Butterfly Lovers (梁山伯与祝英台)"]
+    const folkTitle = ['We have prepared a few excerpts from stories.', 'Journey to the West (西游记)', 'Romance of the Three Kingdoms (三国演义)', "The Legend of Hou Yi and Chang'e (后羿与嫦娥)", "The Eight Immortals (八仙)" , "The Butterfly Lovers (梁山伯与祝英台)"]
 
     return (
         <div className="w-100 h-100 bg-green overflowHelp">
@@ -29,18 +29,15 @@ const FolklorePage = () => {
                         <Journey/>
                     )}
                     {activeTitle == 2 && (
-                        <Kingdoms/>
+                        <HoeYi/>
                     )}
                     {activeTitle == 3 && (
-                        <HoeYi/>
+                        <Kingdoms/>
                     )}
                     {activeTitle == 4 && (
                         <Immortals/>
                     )}
                     {activeTitle == 5 && (
-                        <Snake/>
-                    )}
-                    {activeTitle == 6 && (
                         <Lovers/>
                     )}
                         </div>
@@ -56,6 +53,9 @@ const FolklorePage = () => {
                         }}>
                             {">"}
                         </div>
+                </div>
+                <div className="display-none-folk">
+                <DefaultStory/>
                 </div>
             </div>
         </div>
