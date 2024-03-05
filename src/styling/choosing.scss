@@ -896,7 +896,9 @@ textarea:hover{
 .nav-content{
     width: 100%;
     height: 100%;
-    background-color: #ba181b;
+    // background-color: #ba181b; 
+    // background-color: rgba(253, 10, 10, 0.5);   
+    background-image: url('../assets/banner-1709771.jpg');
 }
 
 .nav-content:hover{
@@ -907,15 +909,17 @@ textarea:hover{
 
 
 .nav-title{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 1rem 1rem 0rem 1rem;
+    color: #ba181b;
     font-weight: bold;
     letter-spacing: .2rem;
 }
 
 .nav-image{
-    background-color: #ba181b;
+    // background-color: #ba181b;
+    background-image: url('../assets/banner-1709771.jpg');
     width: 100%;
     height: 100%;
     display: flex;

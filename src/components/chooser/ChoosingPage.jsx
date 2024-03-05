@@ -114,6 +114,9 @@ const ChoosingPage = () => {
                         Brief History of China
                     </div>    
                     <div className="head-navigation">
+                        <div  className={`head-nav-link  ${location.pathname == '/first-page' &&  'active-link'}`}   onClick={() => {
+                            handleNavigation('/first-page')
+                        }}>Home</div>
                         <div  className={`head-nav-link  ${location.pathname == '/first-page/people' &&  'active-link'}`}   onClick={() => {
                             handleNavigation('/first-page/people')
                         }}>People</div>

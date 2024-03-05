@@ -9,7 +9,7 @@ const Chooser = ({ navFn }) => {
     };
 
     return (
-        <div className="w-100 bg-skin h-100 overflow">
+        <div className="w-100 h-100 overflow" style={{backgroundColor: "#5b2528"}}>
             <div className="card-holder">
                 <div className="nav-card first"  onClick={() => {
                         handleNavigation('/first-page/people')
