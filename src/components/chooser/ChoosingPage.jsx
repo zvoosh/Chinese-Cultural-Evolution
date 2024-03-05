@@ -1,13 +1,14 @@
-import { Button, Col, Form, Input, Modal, Row } from "antd";
+import { Button, Col, Form, Input, message, Modal, notification, Row } from "antd";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { Chooser } from "./Chooser";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
-import TextArea from "antd/es/input/TextArea";
 import { IoMdMenu } from "react-icons/io";
 
 const ChoosingPage = () => {
     const navigate = useNavigate();
+    // const [messageApi, contextHolder] = message.useMessage();
+    const [api, contextHolder] = notification.useNotification();
     const location = useLocation();
     const [openModal, isOpenModal] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,10 +31,20 @@ const ChoosingPage = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+                api.success({
+                    message: "Successful",
+                    description: "Message was sent successfully",
+                    placement: "topRight"
+                })
+              isOpenModal(false);
             },
             (error) => {
-              console.log('FAILED...', error.text);
+                api.error({
+                    message: "Error",
+                    description: "Message wasn't sent successfuly",
+                    placement: "topRight"
+                })
+                isOpenModal(false);
             },
           );
       };
@@ -41,7 +52,7 @@ const ChoosingPage = () => {
     return (
         <div className="overflow-hidden w-100 h-100">
             <div className="w-100  hd-bg-image bg-red p-1">
-                    
+            {contextHolder}
                     <div className="disable-enable">
                 <div className="flex space-between w-100" >
                     <div className="title">
