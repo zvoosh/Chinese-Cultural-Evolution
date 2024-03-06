@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/chinese-cultural-evolution/' >
+    <BrowserRouter basename='/Chinese-Cultural-Evolution/' >
       <App />
     </BrowserRouter>
   </React.StrictMode>,

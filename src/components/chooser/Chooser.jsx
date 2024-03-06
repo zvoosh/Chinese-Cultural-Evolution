@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Image } from "antd";
 
+
 const Chooser = ({ navFn }) => {
     const navigate = useNavigate();
 
