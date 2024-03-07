@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className='contentSpace font-noto'>
-        <Routes basename="/Chinese-Cultural-Evolution">
+        <Routes >
           <Route path="/" element={<WelcomePage />} />
           <Route path='/first-page' element={<ChoosingPage />}>
             <Route path="people" element={<PeoplePage />} />
