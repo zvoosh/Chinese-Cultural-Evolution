@@ -19,7 +19,7 @@ const WelcomePage = () => {
             <div className="testingBG">
             <div className="w-100 bg-red p-1">
                 <div className="flex justify-center w-100" >
-                    <div className="title">
+                    <div className="title-page-welcome">
                     {/* Virtual guide through the development of Chinese culture */}
                      VIRTUAL GUIDE THROUGH THE DEVELOPMENT OF CHINESE CULTURE
                     </div>

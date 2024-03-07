@@ -5,9 +5,19 @@
         height: 100%;
         background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;
+        background-size: 300% 100%;
         overflow: hidden;
+        color: white;
     }
+
+
+    .title-page-welcome{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
 
     .welcomingText {
         color: white;
@@ -77,9 +87,17 @@
         height: 100%;
         background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         overflow: hidden;
+    }
+
+    
+
+    .title-page-welcome{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
     }
 
     .welcomingText {
@@ -143,15 +161,22 @@
 }
 
 
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .testingBG {
         width: 100%;
         height: 100%;
         background-image: url('../assets/welcoming01.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         overflow: hidden;
+    }
+
+
+    .title-page-welcome{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
 
     .welcomingText {
@@ -225,6 +250,11 @@
         background-position: center;
         overflow: hidden;
     }
+    .title-page-welcome{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
 
     .welcomingText {
         color: white;
@@ -287,6 +317,13 @@
 }
 
 @media only screen and (min-width: 1441px) {
+
+    .title-page-welcome{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
     .testingBG {
         width: 100%;
         height: 100%;
@@ -298,7 +335,7 @@
     }
 
     .welcomingText {
-        color: red;
+        color: white;
         font-size: 3rem;
         position: relative;
         top: 25%;
