@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { WelcomePage, SculptingPage, FolklorePage, PaintingPage, PeoplePage, ChoosingPage} from './components';
 import NotFound from './components/NotFound';
 
