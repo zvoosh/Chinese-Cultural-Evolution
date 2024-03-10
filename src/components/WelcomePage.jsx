@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 
 
@@ -31,7 +32,9 @@ const WelcomePage = () => {
                 <div className={`welcomingToNext ${isClicked ? "clickedClicker" : ''}`} id="clicker" onClick={() => {
                     setIsClicked((prev) => !prev)
                 }}>
-                    {!isClicked ? ">" : ""}
+                    {!isClicked ? (
+                        <FaAngleDoubleRight />
+                    ) : ""}
                 </div>
             </div>
         </>
