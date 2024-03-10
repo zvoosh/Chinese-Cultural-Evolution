@@ -4,6 +4,12 @@ import { Chooser } from "./Chooser";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { IoMdMenu } from "react-icons/io";
+import { FaHome } from "react-icons/fa";
+import { PiPersonSimpleBold } from "react-icons/pi";
+import { LuPaintbrush2 } from "react-icons/lu";
+import { GiCeremonialMask } from "react-icons/gi";
+import { IoHammerOutline } from "react-icons/io5";
+import { TfiEmail } from "react-icons/tfi";
 
 const ChoosingPage = () => {
     const navigate = useNavigate();
@@ -72,33 +78,33 @@ const ChoosingPage = () => {
                                     <div  className={`head-nav-link  ${location.pathname == '/first-page' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/first-page')
                                     }}>
-                                    <div className="mr-1">Home</div>
+                                    <div className="mr-1"><FaHome style={{marginRight:'1rem'}}/>Home</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/first-page/people' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/first-page/people')
                                     }}>
-                                    <div className="mr-1">People</div>
+                                    <div className="mr-1"> <PiPersonSimpleBold style={{marginRight:'1rem'}}/> People</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/first-page/painting' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/first-page/painting')
                                     }}>
-                                    <div className="mr-1">Paintings</div>
+                                    <div className="mr-1"><LuPaintbrush2  style={{marginRight:'1rem'}}/>Paintings</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/first-page/folklore' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/first-page/folklore')
                                     }}>
-                                    <div className="mr-1">Folklore</div>
+                                    <div className="mr-1"><GiCeremonialMask style={{marginRight:'1rem'}}/> Folklore</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/first-page/craftmenship' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/first-page/craftmenship')
                                     }}>
-                                    <div className="mr-1">Craftmenship</div>
+                                    <div className="mr-1"><IoHammerOutline style={{marginRight:'1rem'}} />Craftmenship</div>
                                     </div>
                                     </div>
                                     <div className=" mr-1 flex justify-end align-end">
                                     <div  className='head-nav-link' onClick={()=>{
                                     isOpenModal((prev)=>!prev)
-                                }}>Contact</div>
+                                }}><TfiEmail style={{marginRight:'1rem'}} />Contact</div>
                                 </div>
                             </div>
                             )}
@@ -154,7 +160,7 @@ const ChoosingPage = () => {
                     <label>Name:</label>
                         </Col>
                         <Col span={16}>
-                    <input type="text" name="user_name" className="input-style" autoComplete={false} id="inputTY"/>
+                    <input type="text" name="user_name" className="input-style" autoComplete={false} id="inputTY" required />
                         </Col>
                     </Row>
                     <Row  className="p-1">
@@ -162,7 +168,7 @@ const ChoosingPage = () => {
                     <label>Email:</label>
                         </Col>
                         <Col span={16}>
-                    <input type="email" name="user_email" className="input-style"  autoComplete={false}/>
+                    <input type="email" name="user_email" className="input-style"  autoComplete={false} required />
                         </Col>
                     </Row>
                     <Row  className="p-1">
@@ -170,7 +176,7 @@ const ChoosingPage = () => {
                     <label>Message:</label>
                         </Col>
                         <Col span={16}>
-                    <textarea name="message" rows={5} className="w-100"  autoComplete={false}/>
+                    <textarea name="message" rows={5} className="w-100"  autoComplete={false} required />
                         </Col>
                     </Row>
                     <Row justify={"end"}>

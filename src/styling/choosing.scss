@@ -993,3 +993,19 @@ textarea:hover{
 }
 
 }
+
+/* Style for the validation message */
+input:invalid,
+textarea:invalid {
+    border-color: red; /* Change border color to red for invalid fields */
+}
+
+/* Style for the validation message text */
+input:invalid + span::after,
+textarea:invalid + span::after {
+    content: "This field is required"; /* Custom error message */
+    color: red; /* Set text color to red */
+    display: block; /* Display the message */
+    font-size: 0.8rem; /* Adjust font size */
+    margin-top: 0.2rem; /* Adjust spacing */
+}

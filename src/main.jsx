@@ -6,7 +6,6 @@ import { HashRouter  } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/*  basename='/Chinese-Cultural-Evolution/' */}
     <HashRouter>
       <App />
     </HashRouter >
