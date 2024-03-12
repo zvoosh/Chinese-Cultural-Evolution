@@ -9,8 +9,8 @@ function App() {
     <>
       <div className='contentSpace font-noto'>
         <Routes >
-          <Route path="/" element={<WelcomePage />} />
-          <Route path='/first-page' element={<ChoosingPage />}>
+          {/* <Route path="/" element={<WelcomePage />} /> */}
+          <Route path='/' element={<ChoosingPage />}>
             <Route path="people" element={<PeoplePage />} />
             <Route path="painting" element={<PaintingPage />} />
             <Route path="folklore" element={<FolklorePage />} />

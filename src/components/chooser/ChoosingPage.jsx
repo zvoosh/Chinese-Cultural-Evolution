@@ -75,28 +75,28 @@ const ChoosingPage = () => {
                                     Brief History of China
                                 </div>
                                 <div className="head-navigation">
-                                    <div  className={`head-nav-link  ${location.pathname == '/first-page' &&  'active-link'}`}  onClick={() => {
-                                        handleNavigation('/first-page')
+                                    <div  className={`head-nav-link  ${location.pathname == '/' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/')
                                     }}>
                                     <div className="mr-1"><FaHome style={{marginRight:'1rem'}}/>Home</div>
                                     </div>
-                                    <div  className={`head-nav-link ${location.pathname == '/first-page/people' &&  'active-link'}`}  onClick={() => {
-                                        handleNavigation('/first-page/people')
+                                    <div  className={`head-nav-link ${location.pathname == '/people' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/people')
                                     }}>
                                     <div className="mr-1"> <PiPersonSimpleBold style={{marginRight:'1rem'}}/> People</div>
                                     </div>
-                                    <div  className={`head-nav-link ${location.pathname == '/first-page/painting' &&  'active-link'}`}  onClick={() => {
-                                        handleNavigation('/first-page/painting')
+                                    <div  className={`head-nav-link ${location.pathname == '/painting' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/painting')
                                     }}>
                                     <div className="mr-1"><LuPaintbrush2  style={{marginRight:'1rem'}}/>Paintings</div>
                                     </div>
-                                    <div  className={`head-nav-link ${location.pathname == '/first-page/folklore' &&  'active-link'}`}  onClick={() => {
-                                        handleNavigation('/first-page/folklore')
+                                    <div  className={`head-nav-link ${location.pathname == '/folklore' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/folklore')
                                     }}>
                                     <div className="mr-1"><GiCeremonialMask style={{marginRight:'1rem'}}/> Folklore</div>
                                     </div>
-                                    <div  className={`head-nav-link ${location.pathname == '/first-page/craftmenship' &&  'active-link'}`}  onClick={() => {
-                                        handleNavigation('/first-page/craftmenship')
+                                    <div  className={`head-nav-link ${location.pathname == '/craftmenship' &&  'active-link'}`}  onClick={() => {
+                                        handleNavigation('/craftmenship')
                                     }}>
                                     <div className="mr-1"><IoHammerOutline style={{marginRight:'1rem'}} />Craftmenship</div>
                                     </div>
@@ -120,20 +120,20 @@ const ChoosingPage = () => {
                         Brief History of China
                     </div>    
                     <div className="head-navigation">
-                        <div  className={`head-nav-link  ${location.pathname == '/first-page' &&  'active-link'}`}   onClick={() => {
-                            handleNavigation('/first-page')
+                        <div  className={`head-nav-link  ${location.pathname == '/' &&  'active-link'}`}   onClick={() => {
+                            handleNavigation('/')
                         }}>Home</div>
-                        <div  className={`head-nav-link  ${location.pathname == '/first-page/people' &&  'active-link'}`}   onClick={() => {
-                            handleNavigation('/first-page/people')
+                        <div  className={`head-nav-link  ${location.pathname == '/people' &&  'active-link'}`}   onClick={() => {
+                            handleNavigation('/people')
                         }}>People</div>
-                        <div  className={`head-nav-link  ${location.pathname == '/first-page/painting' &&  'active-link'}`}  onClick={() => {
-                            handleNavigation('/first-page/painting')
+                        <div  className={`head-nav-link  ${location.pathname == '/painting' &&  'active-link'}`}  onClick={() => {
+                            handleNavigation('/painting')
                         }}>Paintings</div>
-                        <div className={`head-nav-link  ${location.pathname == '/first-page/folklore' &&  'active-link'}`} onClick={() => {
-                            handleNavigation('/first-page/folklore')
+                        <div className={`head-nav-link  ${location.pathname == '/folklore' &&  'active-link'}`} onClick={() => {
+                            handleNavigation('/folklore')
                         }}>Folklore</div>
-                        <div className={`head-nav-link  ${location.pathname == '/first-page/craftmenship' &&  'active-link'}`} onClick={() => {
-                            handleNavigation('/first-page/craftmenship')
+                        <div className={`head-nav-link  ${location.pathname == '/craftmenship' &&  'active-link'}`} onClick={() => {
+                            handleNavigation('/craftmenship')
                         }}>Craftmenship</div>
                     </div>
                     <div className="mr-2 button-holder">
@@ -191,7 +191,7 @@ const ChoosingPage = () => {
 
 
             <div className="h-100">
-                {location.pathname == '/first-page' ? (<>
+                {location.pathname == '/' ? (<>
                     <Chooser />
                 </>) : <>
                     <Outlet />

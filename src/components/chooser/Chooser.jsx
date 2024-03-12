@@ -13,7 +13,7 @@ const Chooser = ({ navFn }) => {
         <div className="w-100 h-100 overflow" style={{backgroundColor: "#5b2528"}}>
             <div className="card-holder">
                 <div className="nav-card first"  onClick={() => {
-                        handleNavigation('/first-page/people')
+                        handleNavigation('/people')
                     }}>
                     <div className="nav-content">
                     <div className="nav-title">
@@ -27,7 +27,7 @@ const Chooser = ({ navFn }) => {
                     </div>
                 </div>
                 <div className="nav-card second"  onClick={() => {
-                            handleNavigation('/first-page/painting')
+                            handleNavigation('/painting')
                         }}>
                     <div className="nav-content">
                     <div className="nav-title">
@@ -41,7 +41,7 @@ const Chooser = ({ navFn }) => {
                     </div>
                 </div>
                 <div className="nav-card third"   onClick={() => {
-                            handleNavigation('/first-page/folklore')
+                            handleNavigation('/folklore')
                         }}>
                     <div className="nav-content">
                     <div className="nav-title">
@@ -55,7 +55,7 @@ const Chooser = ({ navFn }) => {
                     </div>
                 </div>
                 <div className="nav-card forth"  onClick={() => {
-                            handleNavigation('/first-page/craftmenship')
+                            handleNavigation('/craftmenship')
                         }}>
                     <div className="nav-content">
                     <div className="nav-title">
