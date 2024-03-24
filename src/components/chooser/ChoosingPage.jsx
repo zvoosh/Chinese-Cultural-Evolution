@@ -70,33 +70,38 @@ const ChoosingPage = () => {
                         <IoMdMenu/>
                     </div>
                         {isMenuOpen && (
-                            <div className="open-menu">
+                            <div className={`open-menu ${isMenuOpen ? "opened" : ""}`}>
                                 <div className="title mt-1 ml-1">
                                     Brief History of China
                                 </div>
                                 <div className="head-navigation">
                                     <div  className={`head-nav-link  ${location.pathname == '/' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/')
+                                        setIsMenuOpen(false);
                                     }}>
                                     <div className="mr-1"><FaHome style={{marginRight:'1rem'}}/>Home</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/people' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/people')
+                                        setIsMenuOpen(false);
                                     }}>
                                     <div className="mr-1"> <PiPersonSimpleBold style={{marginRight:'1rem'}}/> People</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/painting' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/painting')
+                                        setIsMenuOpen(false);
                                     }}>
                                     <div className="mr-1"><LuPaintbrush2  style={{marginRight:'1rem'}}/>Paintings</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/folklore' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/folklore')
+                                        setIsMenuOpen(false);
                                     }}>
                                     <div className="mr-1"><GiCeremonialMask style={{marginRight:'1rem'}}/> Folklore</div>
                                     </div>
                                     <div  className={`head-nav-link ${location.pathname == '/craftmenship' &&  'active-link'}`}  onClick={() => {
                                         handleNavigation('/craftmenship')
+                                        setIsMenuOpen(false);
                                     }}>
                                     <div className="mr-1"><IoHammerOutline style={{marginRight:'1rem'}} />Craftmenship</div>
                                     </div>
